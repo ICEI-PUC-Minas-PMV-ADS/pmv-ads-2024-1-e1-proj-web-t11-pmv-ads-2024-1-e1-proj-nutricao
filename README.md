@@ -1,12 +1,12 @@
-# Título do Projeto
+# Nutricão
 
-`CURSO`
+`Tecnólogo em Análise e Desenvolvimento de Sóftware - PUCMinas Virtual`
 
-`DISCIPLINA`
+`Disciplina: Projeto: Desenvolvimento de Aplicação Web Front End`
 
-`SEMESTRE`
+`Primeiro Semenstre - Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Portal sobre alimentação natural canina, contendo informações sobre o assunto visando auxiliar tutores e interessados no tema.
 
 ## Integrantes
 
