@@ -99,7 +99,7 @@
 | RNF-02 |A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.| ALTA | 
 | RNF-03 |A aplicação deve ter bom nível de contraste entre os elementos da tela.| MÉDIA | 
 | RNF-04 |A aplicação deve ser compatível com os navegadores O site deve ser compatível com os principais navegadores do mercado: Google Chrome, Mozilla Firefox e Microsoft Edge.| ALTA | 
-| RNF-05 |A aplicação deve conter a informação de como são tradados os dados do usuário, em concordância com a LGPD.| ALTA |
+| RNF-05 |A aplicação deve armazenar os dados de contato de forma segura utilizando criptografia.| ALTA |
 | RNF-06 |A aplicação deve ser desenvolvida apenas utilizando HTML, CSS e JavaScript.| ALTA | 
  
 
