@@ -78,7 +78,7 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |A aplicação conter tela educando sobre o tema e explicando os benefícios da alimentação natural.| ALTA | 
+| RF-01 |A aplicação deve conter tela educando sobre o tema e explicando os benefícios da alimentação natural.| ALTA | 
 | RF-02 |A aplicação deve conter tela com tabela não exaustiva de alimentos permitidos.| ALTA |
 | RF-03 |A aplicação deve conter tela com tabela não exaustiva de alimentos não aconselhados. | ALTA |
 | RF-04 |A aplicação deve ter formulário para receber e armazenar as informações de idade, peso e raça do animal, inseridas pelo usuário.| ALTA |
