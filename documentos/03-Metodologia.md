@@ -10,15 +10,10 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
-- Scrum Master: Arthur Tiradentes Fonseca
-- Product Owner: Gabriel Ribeiro da Silva
+- Scrum Master: Gabriel Ribeiro da Silva
+- Product Owner: Arthur Tiradentes Fonseca
 - Equipe de Desenvolvimento: Arthur Tiradentes Fonseca, Gabriel Ribeiro da Silva, Jamile Santos dos Passos, Nicolas Oliveira Lemos.
 - Equipe de Design: Jamile Santos dos Passos
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 ### Processo
 
@@ -68,9 +63,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/tree/main/codigo-fonte                            |
 | Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/tree/main/documentos|
-| Projeto de Interface                | Figma                              | http://....                            |
+| Projeto de Interface                | Figma                              |https://www.figma.com/file/1MtlTY1k4rohAIlkVJ06hl/Untitled?type=design&node-id=0%3A1&mode=design&t=n0zGSlm1VODerFVa-1                      |
 | Gerenciamento do Projeto            | GitHub Projects                    |https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1039/views/1|
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+<!--| Hospedagem                          | GitHub Pages                       | http://....                            |-->
 
 
 ### Estratégia de Organização de Codificação 
