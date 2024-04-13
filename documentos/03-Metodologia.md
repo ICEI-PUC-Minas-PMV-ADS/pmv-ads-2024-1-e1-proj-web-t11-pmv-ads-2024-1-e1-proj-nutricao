@@ -10,10 +10,10 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
-- Scrum Master: 
-- Product Owner: 
+- Scrum Master: Arthur Tiradentes Fonseca
+- Product Owner: Gabriel Ribeiro da Silva
 - Equipe de Desenvolvimento: Arthur Tiradentes Fonseca, Gabriel Ribeiro da Silva, Jamile Santos dos Passos, Nicolas Oliveira Lemos.
-- Equipe de Design: 
+- Equipe de Design: Jamile Santos dos Passos
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
