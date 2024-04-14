@@ -24,17 +24,12 @@ Para organização do projeto será utilizado o GitHub Projects, estruturado da 
 - In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-O quadro kanban do projeto está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1039/views/1
+O quadro kanban do projeto está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1039/views/1 e em seu estágio atual, na imagem abaixo:
 
-COLOCAR AQUI IMAGEM DO QUADRO KANBAN!
-
-(deletar)
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-(deletar)
+<figure> 
+  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/f93eef05ae4e93287f1ced5f6abc883ab53510bf/documentos/img/Quadro%20Kanban%20Nutric%C3%A3o.png"
+    <figcaption>Figura 1 - Tela do kanban</figcaption>
+</figure> 
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -50,7 +45,7 @@ COLOCAR AQUI IMAGEM DO QUADRO KANBAN!
 
 <figure> 
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
 ### Ferramentas
