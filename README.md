@@ -1,6 +1,6 @@
 # Nutricão
 
-`Tecnólogo em Análise e Desenvolvimento de Sóftware - PUCMinas Virtual`
+`Tecnólogo em Análise e Desenvolvimento de Software - PUCMinas Virtual`
 
 `Disciplina: Projeto: Desenvolvimento de Aplicação Web Front End`
 
@@ -11,7 +11,6 @@ Portal sobre alimentação natural canina, contendo informações sobre o assunt
 ## Integrantes
 
 * Arthur Tiradentes Fonseca
-* Gabriel do Carmo Matte
 * Gabriel Ribeiro da Silva
 * Jamile Santos dos Passos
 * Nicolas Oliveira Lemos
