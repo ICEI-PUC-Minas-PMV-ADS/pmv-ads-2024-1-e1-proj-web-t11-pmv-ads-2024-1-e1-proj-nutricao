@@ -3,13 +3,13 @@
 
 ## User Flow
 
-O projeto possui diversas telas informativas com navegação simples entre as mesmas, utilizando menu superior. As telas do fluxo são detalhadas na seção de Protótipo, que também se encontra na <a href="https://www.figma.com/file/1MtlTY1k4rohAIlkVJ06hl/Untitled?type=design&node-id=0%3A1&mode=design&t=n0zGSlm1VODerFVa-1"> página no Figma. </a>
+O projeto possui diversas telas informativas com navegaçãos entre as mesmas utilizando menu superior. As telas do fluxo são detalhadas na seção de Protótipo, que também se encontra na <a href="https://www.figma.com/file/1MtlTY1k4rohAIlkVJ06hl/nutric%C3%A3o?type=design&node-id=0-1&mode=design&t=ZlJUVr3kRn4LYTlH-0"> página no Figma. </a>
 
 <figure>
  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/blob/main/documentos/img/User%20Flow%20Nutric%C3%A3o.png"
 </figure>
 
-O user flow pode ser acessado em: https://app.flowmapp.com/share/projects/f698c1a7-52f3-45fc-a6b1-1dbabd3a1504/userflow/f231f0f6-b9bd-4183-8959-3b4e39ed0acf
+O user flow pode ser acessado em: https://www.figma.com/file/1MtlTY1k4rohAIlkVJ06hl/nutric%C3%A3o?type=design&node-id=50-54&mode=design&t=ZlJUVr3kRn4LYTlH-0.
 
 ## Protótipo
 ### Protótipo de baixa fidelidade
