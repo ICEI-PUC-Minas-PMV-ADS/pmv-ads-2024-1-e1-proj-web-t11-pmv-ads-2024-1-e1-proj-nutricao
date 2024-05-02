@@ -4,7 +4,7 @@
 
 `Disciplina: Projeto: Desenvolvimento de Aplicação Web Front End`
 
-`Primeiro Semenstre - Eixo 1`
+`Primeiro Semestre - Eixo 1`
 
 Portal sobre alimentação natural canina, contendo informações sobre o assunto visando auxiliar tutores e interessados no tema.
 
