@@ -1,0 +1,382 @@
+/* --------------------------------------------------------------
+configurações do gerais 
+-------------------------------------------------------------- */
+footer, body, h1, h2, h3, h4, h5, h6, p, section, article, main, ul, li, div {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'PoetsenOne-Regular';
+    src: url('fontes/PoetsenOne-Regular.ttf');
+}
+
+/* --------------------------------------------------------------
+fim das configurações do gerais 
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do menu Desktop
+-------------------------------------------------------------- */
+.div-topo {
+    background-color: white;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index:1;
+}
+.logo {
+    width: 225px;
+    position: absolute;
+    left: 10px;
+}
+.lista-topo {
+    margin: auto;
+}
+.lista-topo > ul {
+    display: flex;
+    flex-direction: row;
+}
+.lista-topo > ul >li {
+    margin: 10px 50px 10px 50px;
+    list-style: none;
+}
+/* --------------------------------------------------------------
+fim das configurações do menu Desktop
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do banner Desktop
+-------------------------------------------------------------- */
+.div-banner {
+    width: 100%;
+    height: 28em;
+}
+
+.img-banner {
+    width: 100%;
+    height: 30vw;
+    background-image: url(imagens/banner/banner-certo.png);
+    background-size: cover;
+    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-banner {
+    background-color: #F1A008;
+    text-align: center;
+    width: 200px;
+    border: 2px dashed black;
+    border-radius: 19px;
+    padding: 11px;
+    font-family: 'PoetsenOne-Regular';
+    transition: 0.5s;
+}
+.btn-banner:hover {
+    background-color: #000000;
+ color: white;
+
+}
+.btn-banner a {
+    all: unset;
+    font-size: x-large;
+}
+.banner-texto {
+    font-family: 'PoetsenOne-Regular';
+    font-size: 1.3em;
+    width: 50vw;
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+.banner-texto h1 {
+    margin-bottom: 1em;
+}
+/* --------------------------------------------------------------
+fim configurações do banner Desktop
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações dos Cards da index
+-------------------------------------------------------------- */
+.div-cards-index {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0em;
+    height: 15em;
+}
+.cards-index {
+    width: 346px;
+    background-color: white;
+    height: 150px;
+    margin: 10px 2.5em 0px 10px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 0px 10px #00000029;
+    justify-content: space-around;
+}
+.cards-index img {
+    height: 80px;
+    width: 80px;
+    margin: 33px 25px 10px 25px;
+}
+.cards-index p {
+    margin: 5px 10px 10px 5px;
+    font-size: 100%;
+    color: #858383;
+}
+.cards-index h2 {
+    margin-top: 28px;
+    color: #F1A008;
+    font-family: 'PoetsenOne-Regular', sans-serif;
+    font-size: 1.3em;
+}
+/* --------------------------------------------------------------
+fim configurações dos Cards da index
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do sobre nós da index
+-------------------------------------------------------------- */
+.sobre-nos {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    margin: 50px 0px;
+}   
+.sobre-nos-img {
+    width: 50vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sobre-nos-img img {
+    width: 70%;
+    padding-right: 1em;
+}
+.sobre-nos-txt {
+    width: 50vw;
+    align-self: center;
+    font-size: 100%;
+    color: #858383;
+    padding-left: 1em;
+}
+.sobre-nos-txt h2 {
+    font-size: 2.7em;
+    margin-bottom: 0em;
+    padding-bottom: 0.7em;
+    font-family: 'PoetsenOne-Regular';
+    color: #F1A008;
+}
+.sobre-nos-txt > div {
+    width: 38vw;
+}   
+.sobre-nos-txt p {
+    /* line-height: 1em; */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.sobre-nos-txt ul {
+    margin-top: 2em;
+    line-height: 2em;
+    list-style: none;
+}
+/* --------------------------------------------------------------
+fim configurações do sobre nós da index
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do parallax da index
+-------------------------------------------------------------- */
+.parallax {
+    background-position: right;
+    width: 100%;
+    height: 29em;
+    background-image: url(imagens/parallax4.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 1px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.parallax-texto {
+    width: 100%;
+    height: auto;
+    padding-left: 3em;
+}
+.parallax-texto div {
+    width: 45%;
+}
+.parallax-texto h2 {
+    font-size: 2.7em;
+    font-family: 'PoetsenOne-Regular';
+    color: #F1A008;
+    margin-bottom: 0.5em;
+}
+.parallax-texto p {
+    font-size: 1.3em;
+    color: #636363;
+    text-shadow: 0px 0px black;
+}
+/* --------------------------------------------------------------
+fim configurações do parallax da index
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+Configurações dos cards 2 da index
+-------------------------------------------------------------- */
+.cards-index2-fora {
+    width: 100%;
+    height: 566px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-index2 {
+    width: 370px;
+    height: 480px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000029;
+}
+.cards-index2-txt {
+    padding: 20px 20px 20px 20px;
+}
+.cards-index2-txt h3 {
+    padding: 0px 0px 10px 0px;
+}
+.cards-index2 p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #858383;
+}
+#card1{
+    margin: 0px 12px 0px 0px;
+}
+#card2{
+    margin: 0px 12px 0px 12px;
+}
+#card3{
+    margin: 0px 0px 0px 12px;
+}
+.cards-index2-bttn div {
+    width: 7em;
+    height: 2.5em;
+    background-color: #129454;
+    border-radius: 30px;
+}
+.cards-index2-bttn {
+    padding: 0 0 0 5%;
+}
+
+
+/* --------------------------------------------------------------
+fim configurações dos cards 2 da index
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do rodapé Desktop
+-------------------------------------------------------------- */
+.div-rodape {
+    background-color: #129454;
+    width: 100%;
+    display: flex;
+    height: 300px;
+    bottom: 0px;
+    left: 0px;
+    flex-wrap: nowrap;
+}
+.div-rodape-itens {
+    height: 300px;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.rodape-div-meio{
+    border-right: 3px dashed white;
+    border-left: 3px dashed white;
+}
+.rodape-paginas{
+    color:white;
+    list-style-type: none;
+}
+.div-rodape-itens {
+    color:white;
+}
+.rodape-div-meio img {
+    width: 45%;
+}
+/* --------------------------------------------------------------
+Fim das configurações do rodapé Desktop
+-------------------------------------------------------------- */
+.contador-div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contador {
+    text-align: center;
+    font-size: 56px;
+    margin: 0px 0vw 0 0vw;
+    font-family: 'PoetsenOne-Regular';
+    color: #F1A008;
+    text-shadow: 0px 0px 0px #000000;
+    align-content: center;
+    width: 125px;
+}
+
+  .div-cards-contador {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0em;
+    height: 15em;
+}
+.cards-contador {
+    width: 346px;
+    display: flex;
+    justify-content: center;
+}
+.cards-contador img {
+    height: 80px;
+    width: 80px;
+    margin: 0px 25px 10px 25px;
+}
+.cards-contador-fora {
+    width: 346px;
+    background-color: white;
+    height: 150px;
+    margin: 0px 0em 0px 0px;
+    border-radius: 10px;
+    padding-top: 35px;
+    text-align: -webkit-center;
+}
+
+.p-contador {
+    background-color: #e3e3e3;
+    width: 80%;
+    height: 33px;
+    border-radius: 40px;
+    color: black;
+    align-content: center;
+    margin-top: 2em;
+}
