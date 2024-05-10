@@ -6,7 +6,7 @@
 O projeto possui diversas telas informativas com navegaçãos entre as mesmas utilizando menu superior. As telas do fluxo são detalhadas na seção de Protótipo, que também se encontra na <a href="https://www.figma.com/file/1MtlTY1k4rohAIlkVJ06hl/nutric%C3%A3o?type=design&node-id=0-1&mode=design&t=ZlJUVr3kRn4LYTlH-0"> página no Figma. </a>
 
 <figure>
- <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/blob/main/documentos/img/User%20Flow%20Nutric%C3%A3o.png"
+ <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/blob/main/documentos/img/UserFlow.png"
 </figure>
 
 O user flow pode ser acessado em: https://www.figma.com/file/1MtlTY1k4rohAIlkVJ06hl/nutric%C3%A3o?type=design&node-id=50-54&mode=design&t=ZlJUVr3kRn4LYTlH-0.
