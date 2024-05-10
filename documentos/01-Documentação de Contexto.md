@@ -33,13 +33,13 @@ O projeto visa fornecer informações abrangentes sobre a alimentação natural 
 
 ### Objetivos Específicos
 
-<ol>
-<li> Viabilizar informações a respeito da alimentação animal: Disponibilizar diversos conteúdos sobre nutrição canina, abrangendo necessidades especificas entre diferentes raças.</li>
-<li> Salientar os perigos acerca da carência nutricional: Transmitir com clareza as vantagens de uma dieta saudável e equilibrada quando comparada à uma alimentação baseada em aditivos e corantes.</li>
-<li> Pluralidade de receitas diversificadas e saudáveis: Oferecer uma variedade de receitas caseiras equilibradas, nutritivas e seguras. Baseando-se nos diferentes nichos do mercado de alimentação natural, com orientações a respeito do preparo das porções e do armazenamento.</li>
-<li> Oferecer direcionamento a fornecedores: Encaminhar os tutores a sites onde possam encontrar comerciantes confiáveis para compra de alimentos já prontos.</li>
-<li> Conceder informações adicionais: Ofertar recursos adicionais como suplementação, a fim de completar a tabela nutricional dos pets e esclarecer como transacionar para a nova dieta de maneira progressiva visando a segurança do animal.</li>
-</ol>
+<ul>
+<li> Viabilizar informações a respeito da alimentação animal: disponibilizar diversos conteúdos sobre nutrição canina, abrangendo necessidades especificas entre diferentes raças.</li>
+<li> Salientar os perigos acerca da carência nutricional: transmitir com clareza as vantagens de uma dieta saudável e equilibrada quando comparada à uma alimentação baseada em aditivos e corantes.</li>
+<li> Pluralidade de receitas diversificadas e saudáveis: oferecer uma variedade de receitas caseiras equilibradas, nutritivas e seguras. Baseando-se nos diferentes nichos do mercado de alimentação natural, com orientações a respeito do preparo das porções e do armazenamento.</li>
+<li> Oferecer direcionamento a fornecedores: encaminhar os tutores a sites onde possam encontrar comerciantes confiáveis para compra de alimentos já prontos.</li>
+<li> Conceder informações adicionais: ofertar recursos adicionais como suplementação, a fim de completar a tabela nutricional dos pets e esclarecer como transacionar para a nova dieta de maneira progressiva visando a segurança do animal.</li>
+</ul>
 
 ## Justificativa
 
