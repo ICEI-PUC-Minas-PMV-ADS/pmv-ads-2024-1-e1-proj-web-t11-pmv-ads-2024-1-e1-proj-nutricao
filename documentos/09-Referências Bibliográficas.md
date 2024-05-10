@@ -9,8 +9,3 @@ SAAD, Flávia Maria de Oliveira Borges.  Revista Brasileira de Zootecnia. <b>A
 BERLINK, Fernanda. Ração x comida natural: entenda o que dizem veterinários sobre alimentação de pets. <b>Globo.com</b>, 16 maio 2023. Disponível em: https://g1.globo.com/pop-arte/pets/noticia/2023/05/16/racao-x-comida-natural-entenda-o-que-dizem-veterinarios-sobre-alimentacao-de-pets.ghtml. Acesso em: 16 mar. 2024. 
 
 SOUZA, Alana. Nos EUA, ração causa morte de 70 cães e deixa outros 80 animais doentes.  <b>Aventuras na História</b>, 14 jan. 2021. Disponível em: https://aventurasnahistoria.uol.com.br/noticias/historia-hoje/nos-eua-racao-causa-morte-de-70-caes-e-deixa-outros-80-animais-doentes.phtml. Acesso em: 16 mar. 2024. 
-
- 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
