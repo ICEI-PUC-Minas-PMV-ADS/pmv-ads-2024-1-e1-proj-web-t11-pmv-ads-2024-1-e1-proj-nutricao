@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+body {
+    background-color: #f1f6fc31;
+}
+
+section,
+footer {
+    padding: 54x 0x;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+p {
+    color: #0000009c;
+}
+
+.container {
+    max-width: 14000px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.btn {
+    background-color:#FF8C00; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+    
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.banner .banner-text p{
+    font-size: 20px;
+    color: #ffffffb7;
+    font-weight: lighter;
+    margin: 18px 0;
+}
+
+/* alimentos permitidos */
+
+.alimento-permitido-text table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.alimento-permitido-text th, .alimento-permitido-text td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.alimento-permitido-text th {
+    background-color: #FF8C00;
+    color: #fff;
+    text-align: center;
+}
+
+.alimento-permitido-text tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.alimento-permitido-text h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: #14424b;
+}
+
+/* alimentos não permitidos */
+
+.alimento-nao-permitido-text {
+    margin-top: 50px; /* Espaçamento superior para separar da tabela de alimentos permitidos */
+}
+
+.alimento-nao-permitido-text h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #14424b; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento inferior para separar do conteúdo */
+}
+
+.alimento-nao-permitido-text table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Espaçamento superior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.alimento-nao-permitido-text th,
+.alimento-nao-permitido-text td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.alimento-nao-permitido-text th {
+    background-color: #FF8C00; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center;
+}
+
+.alimento-nao-permitido-text tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
+
+.alimento-nao-permitido-text tbody tr:hover {
+    background-color: #fe9611; /* Cor de fundo ao passar o mouse sobre a linha */
+}
+
+.alimento-nao-permitido-text tbody td {
+    color: #333; /* Cor do texto nas células */
+}
+
+/* FAQ */
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  
+  .dotless {
+    list-style: none;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin: 2rem;
+    color: #14424b;
+  }
+
+  .dropdown-container {
+    max-width: 800px;
+    min-width: 300px;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #888;
+    overflow: hidden;
+  }
+  
+  .dropdown-container {
+    background-color: white;
+  }
+  
+  .dropdown-container header {
+    cursor: pointer;
+    font-size: 0.6rem;
+    padding: 1rem;
+    background-color: #ccc;
+    color: white;
+    transition: background-color 350ms ease-in-out;
+  }
+  
+  .dropdown-container.open header {
+    background-color: #FF8C00;
+  }
+  
+  .dropdown-container h1 {
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  
+  .dropdown-container .expand {
+    float: right;
+    transform: rotate(45deg);
+    font-size: 1.8em;
+    transition: transform 350ms ease-in-out;
+  }
+  
+  .dropdown-container.open .expand{
+    transform: rotate(0);
+  }
+  
+  .dropdown-container article {
+    max-height: 0px;
+    overflow: hidden;
+    line-height: 1.6; 
+    transition: max-height 350ms ease-in-out;
+  }
+  
+  .dropdown-container .article-inner {
+    padding: 1rem;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #FF8C00; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    padding: 10px 10px; /* Espaçamento interno */
+    text-align: center; /* Centralizar o texto */
+}
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+.footer-content {
+    flex-basis: calc(33.33% - 20px); /* Distribuir igualmente em três colunas, com espaçamento entre elas */
+    margin-bottom: 10px; /* Espaçamento inferior entre os elementos */
+    text-align: left; /* Alinhar o texto à esquerda */
+}
+
+.footer-content h2 {
+    margin-bottom: 5px; /* Espaçamento inferior abaixo dos títulos */
+}
+
+.list li {
+    list-style: none; /* Remover marcadores de lista */
+    margin-bottom: 3px; /* Espaçamento inferior entre os itens da lista */
+}
+
+.bottom-bar {
+    height: 1px; /* Altura da barra inferior */
+    background-color: #fff; /* Cor da barra inferior */
+    margin: 10px 0; /* Espaçamento externo */
+}
+
+.footer-content li:last-child {
+    margin-bottom: 0; /* Remover margem do último item */
+}
+
+/* Estilizar o texto de direitos autorais */
+footer p {
+    font-size: 12px; /* Tamanho da fonte */
+    color: #fff;
+}
