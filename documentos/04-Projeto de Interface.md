@@ -27,7 +27,7 @@ O user flow pode ser acessado em: https://www.figma.com/file/1MtlTY1k4rohAIlkVJ0
 <hr>
 
 <h3><b>Tela - Alimentos permitidos e não aconselhados</b></h3>
-<p>A tela de alimentos permitidos e não aconselhados apresenta tabelas de alimentos permitidos (RF-02) e não aconselhados(RF-03), além de campo de perguntas frequentes (FAQ) (RF-09). </p>
+<p>A tela de alimentos permitidos e não aconselhados apresenta tabelas de alimentos permitidos (RF-02) e não aconselhados(RF-03), além de campo de perguntas frequentes (FAQ) (RF-08). </p>
   
 ![Tela Alimentos Permitidos e não aconselhados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/blob/main/documentos/img/Tela%20alimentos%20permitidos%20e%20n%C3%A3o%20permitidos%20Nutric%C3%A3o.png)
 
@@ -47,7 +47,7 @@ O user flow pode ser acessado em: https://www.figma.com/file/1MtlTY1k4rohAIlkVJ0
 <hr>
 
 <h3><b>Tela - Vantagens e responsabilidades</b></h3>
-<p>A tela de vantagens e responsabilidades contém texto informativo sobre as vantagens e responsabilidades que o tutor deve ter com a alimentação natural (RF-08). </p>
+<p>A tela de vantagens e responsabilidades contém texto informativo sobre as vantagens e responsabilidades que o tutor deve ter com a alimentação natural (RF-07). </p>
   
 ![Tela Vantagens e responsabilidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/blob/main/documentos/img/Tela%20vantagens%20e%20responsabilidades%20Nutric%C3%A3o.png)
 
@@ -57,7 +57,7 @@ O user flow pode ser acessado em: https://www.figma.com/file/1MtlTY1k4rohAIlkVJ0
 <hr>
 
 <h3><b>Tela - Contato</b></h3>
-<p>A tela de contato implementa formulário de contato para comunicação (RF-10). </p>
+<p>A tela de contato implementa formulário de contato para comunicação (RF-09). </p>
   
 ![Tela contato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/blob/main/documentos/img/Tela%20contato%20Nutric%C3%A3o.png)
 
