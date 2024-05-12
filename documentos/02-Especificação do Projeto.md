@@ -84,10 +84,9 @@
 | RF-04 |A aplicação deve ter formulário para receber e armazenar as informações de idade, peso e raça do animal, inseridas pelo usuário.| ALTA |
 | RF-05 |A aplicação deve possuir lógica interna que permita o cálculo de quantidades de alimentação, seguindo informações inseridas pelo usuário. | ALTA |
 | RF-06 |A aplicação deve fornecer, após o usuário informar os dados necessários, a instrução de caráter educativo sobre as quantidades de macronutrientes adequadas.| ALTA |
-| RF-07 |A aplicação deve conter função de busca por palavra-chave.| BAIXA |
-| RF-08 |A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.| MÉDIA |
-| RF-09 |A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ) | BAIXA |
-| RF-10 |A aplicação deve conter formulário de contato para comunicação e captura de lead.| MÉDIA |
+| RF-07 |A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.| MÉDIA |
+| RF-08 |A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ) | BAIXA |
+| RF-09 |A aplicação deve conter formulário de contato para comunicação e captura de lead.| MÉDIA |
 
 **Prioridade: Alta / Média / Baixa. 
 
