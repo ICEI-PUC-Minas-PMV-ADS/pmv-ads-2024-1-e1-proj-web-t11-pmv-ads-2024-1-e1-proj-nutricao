@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 #### Requisito atendido
 
-Rf-10: A aplicação deve conter formulário de contato para comunicação e captura de lead.
+Rf-09: A aplicação deve conter formulário de contato para comunicação e captura de lead.
 
 
 #### Artefatos da funcionalidade
