@@ -52,9 +52,10 @@ Rf-10: A aplicação deve conter formulário de contato para comunicação e cap
 
 #### Artefatos da funcionalidade
 
-Contato.html
-Contato.css
-Contato.js
+* contato.html
+* contato.css
+* contato.js
+
 
 #### Instruções de acesso
 
