@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+footer, body, h1, h2, h3, h4, h5, h6, p, section, article, main, ul, li, div {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+}
+
+/* new */
+.div-topo {
+    background-color: white;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index:1;
+}
+
+.logo {
+    width: 220px;
+    position: absolute;
+    left: 5px;
+}
+
+.lista-topo {
+    margin: auto;
+}
+
+.lista-topo > ul {
+    display: flex;
+    flex-direction: row;
+}
+.lista-topo > ul >li {
+    margin: 10px 50px 10px 50px;
+    list-style: none;
+}
+
+.divisoria {
+    padding-top: 50px;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+
+.divisoria h2 {
+    color: #129454;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+
+
+/* alimentos permitidos */
+
+.alimento-permitido-text table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.alimento-permitido-text th, .alimento-permitido-text td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.alimento-permitido-text th {
+    background-color: #F1A008;
+    color: #fff;
+    text-align: center;
+}
+
+.alimento-permitido-text tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.alimento-permitido-text h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: #129454;;
+}
+
+/* alimentos não permitidos */
+
+.alimento-nao-permitido-text {
+    margin-top: 50px; /* Espaçamento superior para separar da tabela de alimentos permitidos */
+}
+
+.alimento-nao-permitido-text h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #129454; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento inferior para separar do conteúdo */
+}
+
+.alimento-nao-permitido-text table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Espaçamento superior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.alimento-nao-permitido-text th,
+.alimento-nao-permitido-text td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.alimento-nao-permitido-text th {
+    background-color: #129454; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center;
+}
+
+.alimento-nao-permitido-text tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
+
+.alimento-nao-permitido-text tbody tr:hover {
+    background-color: #129454; /* Cor de fundo ao passar o mouse sobre a linha */
+}
+
+.alimento-nao-permitido-text tbody td {
+    color: #333; /* Cor do texto nas células */
+}
+
+/* FAQ */
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  
+  .dotless {
+    list-style: none;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin: 2rem;
+    color: #129454;
+  }
+
+  .dropdown-container {
+    max-width: 800px;
+    min-width: 300px;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #888;
+    overflow: hidden;
+  }
+  
+  .dropdown-container {
+    background-color: white;
+  }
+  
+  .dropdown-container header {
+    cursor: pointer;
+    font-size: 0.6rem;
+    padding: 1rem;
+    background-color: #ccc;
+    color: white;
+    transition: background-color 350ms ease-in-out;
+  }
+  
+  .dropdown-container.open header {
+    background-color: #129454;
+  }
+  
+  .dropdown-container h1 {
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  
+  .dropdown-container .expand {
+    float: right;
+    transform: rotate(45deg);
+    font-size: 1.8em;
+    transition: transform 350ms ease-in-out;
+  }
+  
+  .dropdown-container.open .expand{
+    transform: rotate(0);
+  }
+  
+  .dropdown-container article {
+    max-height: 0px;
+    overflow: hidden;
+    line-height: 1.6; 
+    transition: max-height 350ms ease-in-out;
+  }
+  
+  .dropdown-container .article-inner {
+    padding: 1rem;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #F1A008 /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    padding: 10px 10px; /* Espaçamento interno */
+    text-align: center; /* Centralizar o texto */
+}
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+.footer-content {
+    flex-basis: calc(33.33% - 20px); /* Distribuir igualmente em três colunas, com espaçamento entre elas */
+    margin-bottom: 10px; /* Espaçamento inferior entre os elementos */
+    text-align: left; /* Alinhar o texto à esquerda */
+}
+
+.footer-content h2 {
+    margin-bottom: 5px; /* Espaçamento inferior abaixo dos títulos */
+}
+
+.list li {
+    list-style: none; /* Remover marcadores de lista */
+    margin-bottom: 3px; /* Espaçamento inferior entre os itens da lista */
+}
+
+.bottom-bar {
+    height: 1px; /* Altura da barra inferior */
+    background-color: #fff; /* Cor da barra inferior */
+    margin: 10px 0; /* Espaçamento externo */
+}
+
+.footer-content li:last-child {
+    margin-bottom: 0; /* Remover margem do último item */
+}
+
+/* Estilizar o texto de direitos autorais */
+.div-rodape {
+    background-color: #129454;
+    width: 100%;
+    display: flex;
+    height: 300px;
+    bottom: 0px;
+    left: 0px;
+    flex-wrap: nowrap;
+}
+.div-rodape-itens {
+    height: 300px;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.rodape-div-meio{
+    border-right: 3px dashed white;
+    border-left: 3px dashed white;
+}
+.rodape-paginas{
+    color:white;
+    list-style-type: none;
+}
+.div-rodape-itens {
+    color:white;
+}
+.rodape-div-meio img {
+    width: 110%;
+    padding-top: 40px;
+    padding-left: 40px;
+}
