@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <title>Página de Contato - nutricão</title>
+    <meta charset="UTF-8">>
+    <meta name="nome do site" content="contato">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body> 
+    <header>
+        <div class="div-topo">
+            <div class="logo">
+                <img src="imagens/logo.png" alt="">
+                </div>
+                <div class="lista-topo">
+                    <ul>
+                        <li><a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/">Início</a></li>
+                        <li><a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/vantagens/vantagens">Vantagens</a></li>
+                        <li><a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/calculadora/calculadora">calculadora</a></li>
+                        <li>contato</li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+    
+    <div class="div-banner" data-aos="fade">
+       
+        <div class="img-banner"><div class="banner-texto">
+            <h1>CONTATO</h1>
+    </div>
+    
+
+   <div >
+    <form onsubmit="return false"  name="formulario" method="post">
+        <div class="contato">
+            <h1 class="cont">Contato:  </h1>
+             <div class="caixas">
+                 <div class="caixa">
+                    <label>Nome Completo: *</label><br/>
+                    <input type="text" name="nome" id="nome"  minlength="4" required placeholder="Digite seu nome"><br/>
+                 </div>               
+                 <div class="caixa">
+                     <label>Email: *</label><br/>
+                     <input type="email" name = "email" id="email" required placeholder="Digite seu email"></br>
+                 </div>
+                 <div class="caixa">
+                     <label>Telefone: *</label><br/>
+                     <input type="tel" minlength="11" name="telefone" id="telefone"  required placeholder="(99)99999-9999"></br>
+                 </div>
+                 <p>
+                    Campos obrigatórios(*)
+                </p>
+            </div>
+            <div class="mensagem">
+              Mensagem <br/>
+                <textarea name="mensagem" rows="10" cols="50">
+                mande a sua mensagem
+             </textarea>
+
+            </div>
+            <div>
+               <button onclick=" return enviar()" class="env-button" id="botao" >enviar</button>
+            </div>
+       </div>
+   </form>
+</div>
+   
+   
+    
+    
+    
+
+    <footer>
+        <div class="div-rodape">
+            <div class="div-rodape-itens">
+            Rua ipsum lorem lorem , 256 <br>
+            Jardim Sta. Cecilia <br>
+            São Paulo - SP <br>
+            </div>
+    
+            <div class="div-rodape-itens rodape-div-meio">
+                <img src="imagens/logo-rodape.png" alt="logo">
+                <h3 style= color:white; >Nutricão - LTDA</h3>
+            </div>
+            <div class="endereco-rodape"></div>
+            <div class="div-rodape-itens">
+                <ul class="rodape-paginas">
+                        <li><a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/">Início</a></li>
+                        <li><a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/vantagens/vantagens">Vantagens</a></li>
+                        <li><a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/calculadora/calculadora">calculadora</a></li>
+                    <li>contato</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+        
+    </body>
+
+
+    <script src="contato.js"></script>
+    
+
