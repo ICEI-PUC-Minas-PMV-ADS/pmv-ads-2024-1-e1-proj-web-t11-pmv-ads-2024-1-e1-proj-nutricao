@@ -1,0 +1,81 @@
+/* Estilo para o modal */
+.modal {
+    display: none; /* Oculta por padrão */
+    position: fixed; /* Faz com que o modal fique fixo na tela */
+    z-index: 1; /* Coloca o modal sobre todo o conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Adiciona scroll se necessário */
+    background-color: rgba(0,0,0,0.4); /* Fundo escuro com transparência */
+  }
+  
+  /* Conteúdo do modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 100px 15px 0 auto;
+    padding: 14px;
+    border: 1px solid #888;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #f1a008;
+}
+  
+  /* Botão de fechar do modal */
+  .close {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  button#openModalBtn {
+    left: 88vw;
+    position: relative;
+    width: 7vw;
+    height: 2vw;
+    background-color: #129454;
+    border: none;
+    font-family: 'PoetsenOne-Regular';
+    color: white;
+    border-radius: 45px;
+}
+.container-modal {
+  margin: 19px;
+  position: relative;
+  z-index: 1;
+}
+.container-modal > h2 {
+  margin-bottom: 20px;
+  font-family: 'PoetsenOne-Regular';
+}
+input#login-username {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
+input#login-password {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
+
+.container-modal > button {
+  background-color: #129454;
+  color: white;
+}
+.container-modal > a {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+
+  
