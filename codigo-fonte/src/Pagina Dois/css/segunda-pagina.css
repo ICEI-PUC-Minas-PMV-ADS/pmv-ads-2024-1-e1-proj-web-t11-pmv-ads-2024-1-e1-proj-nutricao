@@ -10,8 +10,14 @@ main {
 img{
     width: 100%;
 }
+@font-face {
+    font-family: 'PoetsenOne-Regular';
+    src: url('../../fontes/PoetsenOne-Regular.ttf');
 
-/* new */
+}
+/* --------------------------------------------------------------
+configurações do menu Desktop
+-------------------------------------------------------------- */
 .div-topo {
     background-color: white;
     width: 100vw;
@@ -22,43 +28,170 @@ img{
     display: flex;
     flex-direction: row-reverse;
     z-index:1;
+    align-items: center;
 }
-
 .logo {
-    width: 220px;
+    width: 225px;
     position: absolute;
-    left: 5px;
+    left: 10px;
 }
-
 .lista-topo {
     margin: auto;
+    font-family: 'PoetsenOne-Regular';
 }
-
 .lista-topo > ul {
     display: flex;
     flex-direction: row;
+}
+.lista-topo > a {
+  text-decoration: none;
 }
 .lista-topo > ul >li {
     margin: 10px 50px 10px 50px;
     list-style: none;
 }
+.lista-topo > ul >li>a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+.lista-topo > ul >li> :hover {
+    text-decoration: none;
+    color:#F1A008;
+  }
+/* --------------------------------------------------------------
+fim das configurações do menu Desktop
+-------------------------------------------------------------- */
 
-.divisoria {
-    padding-top: 50px;
-    background-color: #f2f2f2;
-    padding-bottom: 50px;
+.container h2 {
+  font-family: 'PoetsenOne-Regular';
+  margin-bottom: 1em;
+  text-align: -webkit-center;
+}
+.container p {
+  margin-bottom: 1em;
+  padding: 0 2em;
 }
 
-.divisoria h2 {
-    color: #129454;
-    text-align: center;
-    margin-bottom: 20px;
-    padding-top: 70px;
-    padding-bottom: 20px;
+/* --------------------------------------------------------------
+configurações do banner Desktop
+-------------------------------------------------------------- */
+.div-banner {
+  width: 100%;
+  height: 40em;
 }
 
+.img-banner {
+  width: 100%;
+  height: 30vw;
+  background-image: url(../../imagens/banner/banner.png);
+  background-size: cover;
+  text-align: -webkit-center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-texto {
+  font-family: 'PoetsenOne-Regular';
+  font-size: 1.3em;
+  width: 50vw;
+  margin-bottom: 5em;
+  margin-top: 4em;
+  
+}
+.banner-texto h1 {
+  margin-bottom: 1em;
+ text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+/* --------------------------------------------------------------
+fim configurações do banner Desktop
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+configurações do modal
+-------------------------------------------------------------- */
+.modal {
+    display: none; /* Oculta por padrão */
+    position: fixed; /* Faz com que o modal fique fixo na tela */
+    z-index: 1; /* Coloca o modal sobre todo o conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Adiciona scroll se necessário */
+    background-color: rgba(0,0,0,0.4); /* Fundo escuro com transparência */
+  }
+  
+  /* Conteúdo do modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 100px 15px 0 auto;
+    padding: 14px;
+    border: 1px solid #888;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #f1a008;
+}
+  
+  /* Botão de fechar do modal */
+  .close {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
+  button#openModalBtn {
+    left: 88vw;
+    position: relative;
+    width: 7vw;
+    height: 2vw;
+    background-color: #129454;
+    border: none;
+    font-family: 'PoetsenOne-Regular';
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.container-modal {
+  margin: 19px;
+  position: relative;
+  z-index: 1;
+}
+.container-modal > h2 {
+  margin-bottom: 20px;
+  font-family: 'PoetsenOne-Regular';
+}
+input#login-username {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
+input#login-password {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
 
+.container-modal > button {
+  background-color: #129454;
+  color: white;
+}
+.container-modal > a {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+/* --------------------------------------------------------------
+fim das configurações do modal
+-------------------------------------------------------------- */
 /* alimentos permitidos */
 
 .alimento-permitido-text table {
@@ -210,49 +343,9 @@ img{
     padding: 1rem;
   }
 
-  /* footer */
-
-  footer {
-    background-color: #F1A008 /* Cor de fundo do footer */
-    color: white; /* Cor do texto */
-    padding: 10px 10px; /* Espaçamento interno */
-    text-align: center; /* Centralizar o texto */
-}
-
-.container-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px; /* Largura máxima do conteúdo */
-    margin: 0 auto; /* Centralizar horizontalmente */
-}
-
-.footer-content {
-    flex-basis: calc(33.33% - 20px); /* Distribuir igualmente em três colunas, com espaçamento entre elas */
-    margin-bottom: 10px; /* Espaçamento inferior entre os elementos */
-    text-align: left; /* Alinhar o texto à esquerda */
-}
-
-.footer-content h2 {
-    margin-bottom: 5px; /* Espaçamento inferior abaixo dos títulos */
-}
-
-.list li {
-    list-style: none; /* Remover marcadores de lista */
-    margin-bottom: 3px; /* Espaçamento inferior entre os itens da lista */
-}
-
-.bottom-bar {
-    height: 1px; /* Altura da barra inferior */
-    background-color: #fff; /* Cor da barra inferior */
-    margin: 10px 0; /* Espaçamento externo */
-}
-
-.footer-content li:last-child {
-    margin-bottom: 0; /* Remover margem do último item */
-}
-
-/* Estilizar o texto de direitos autorais */
+ /* --------------------------------------------------------------
+configurações do rodapé Desktop
+-------------------------------------------------------------- */
 .div-rodape {
     background-color: #129454;
     width: 100%;
@@ -261,6 +354,7 @@ img{
     bottom: 0px;
     left: 0px;
     flex-wrap: nowrap;
+    font-family: 'PoetsenOne-Regular';
 }
 .div-rodape-itens {
     height: 300px;
@@ -269,6 +363,8 @@ img{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color:white;
+    font-size: 1.3em;
 }
 .rodape-div-meio{
     border-right: 3px dashed white;
@@ -278,11 +374,124 @@ img{
     color:white;
     list-style-type: none;
 }
-.div-rodape-itens {
-    color:white;
+.rodape-paginas>li>a {
+    text-decoration: none;
+    color: white;
 }
 .rodape-div-meio img {
-    width: 110%;
-    padding-top: 40px;
-    padding-left: 40px;
+    width: 30%;
 }
+/* --------------------------------------------------------------
+Fim das configurações do rodapé Desktop
+-------------------------------------------------------------- */
+  /* --------------------------------------------------------------
+configurações do raindrop
+-------------------------------------------------------------- */
+
+.container-chuva {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.raindrop {
+    position: absolute;
+    top: -100px;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+    animation: fall linear infinite;
+}
+
+/* Animação da queda */
+@keyframes fall {
+    to {
+        transform: translateY(110vh);
+    }
+}
+.icone-comida1 {
+    background-image: url(../imagens/carne3.png);
+    background-size: cover;
+}
+.icone-comida2 {
+    background-image: url(../imagens/osso.png);
+    background-size: cover;
+}
+.icone-comida3 {
+    background-image: url(../imagens/pratinho.png);
+    background-size: cover;
+}
+.icone-comida4 {
+    background-image: url(../imagens/carne3.png);
+    background-size: cover;
+}
+.icone-comida5 {
+    background-image: url(../imagens/carne3.png);
+    background-size: cover;
+}
+
+/* Gerar múltiplos elementos e suas animações */
+.raindrop:nth-child(1) {
+    left: 10%;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.raindrop:nth-child(2) {
+    left: 20%;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+}
+
+.raindrop:nth-child(3) {
+    left: 30%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.raindrop:nth-child(4) {
+    left: 40%;
+    animation-duration: 2.2s;
+    animation-delay: 1.5s;
+}
+
+.raindrop:nth-child(5) {
+    left: 50%;
+    animation-duration: 2.7s;
+    animation-delay: 0.2s;
+}
+
+.raindrop:nth-child(6) {
+    left: 60%;
+    animation-duration: 2.4s;
+    animation-delay: 1.2s;
+}
+
+.raindrop:nth-child(7) {
+    left: 70%;
+    animation-duration: 2.9s;
+    animation-delay: 0.7s;
+}
+
+.raindrop:nth-child(8) {
+    left: 80%;
+    animation-duration: 2.1s;
+    animation-delay: 0.4s;
+}
+
+.raindrop:nth-child(9) {
+    left: 90%;
+    animation-duration: 2.6s;
+    animation-delay: 1.6s;
+}
+
+.raindrop:nth-child(10) {
+    left: 95%;
+    animation-duration: 3.1s;
+    animation-delay: 0.9s;
+}
+
+  /* --------------------------------------------------------------
+Fim das configurações do raindrop
+-------------------------------------------------------------- */

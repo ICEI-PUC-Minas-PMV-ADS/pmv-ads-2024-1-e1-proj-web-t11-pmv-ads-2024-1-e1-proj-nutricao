@@ -15,7 +15,7 @@ img{
 
 @font-face {
     font-family: 'PoetsenOne-Regular';
-    src: url('fontes/PoetsenOne-Regular.ttf');
+    src: url('../fontes/PoetsenOne-Regular.ttf');
 }
 
 /* --------------------------------------------------------------
@@ -35,6 +35,7 @@ configurações do menu Desktop
     display: flex;
     flex-direction: row-reverse;
     z-index:1;
+    align-items: center;
 }
 .logo {
     width: 225px;
@@ -43,15 +44,28 @@ configurações do menu Desktop
 }
 .lista-topo {
     margin: auto;
+    font-family: 'PoetsenOne-Regular';
 }
 .lista-topo > ul {
     display: flex;
     flex-direction: row;
 }
+.lista-topo > a {
+  text-decoration: none;
+}
 .lista-topo > ul >li {
     margin: 10px 50px 10px 50px;
     list-style: none;
 }
+.lista-topo > ul >li>a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+.lista-topo > ul >li> :hover {
+    text-decoration: none;
+    color:#F1A008;
+  }
 /* --------------------------------------------------------------
 fim das configurações do menu Desktop
 -------------------------------------------------------------- */
@@ -67,7 +81,7 @@ configurações do banner Desktop
 .img-banner {
     width: 100%;
     height: 30vw;
-    background-image: url(imagens/banner/banner-certo.png);
+    background-image: url(../imagens/banner/banner-certo.png);
     background-size: cover;
     text-align: -webkit-center;
     display: flex;
@@ -123,6 +137,7 @@ configurações do rodapé Desktop
     bottom: 0px;
     left: 0px;
     flex-wrap: nowrap;
+    font-family: 'PoetsenOne-Regular';
 }
 .div-rodape-itens {
     height: 300px;
@@ -131,6 +146,8 @@ configurações do rodapé Desktop
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color:white;
+    font-size: 1.3em;
 }
 .rodape-div-meio{
     border-right: 3px dashed white;
@@ -140,12 +157,93 @@ configurações do rodapé Desktop
     color:white;
     list-style-type: none;
 }
-.div-rodape-itens {
-    color:white;
+.rodape-paginas>li>a {
+    text-decoration: none;
+    color: white;
 }
 .rodape-div-meio img {
-    width: 45%;
+    width: 30%;
 }
 /* --------------------------------------------------------------
 Fim das configurações do rodapé Desktop
 -------------------------------------------------------------- */
+
+/* Estilo para o modal */
+.modal {
+    display: none; /* Oculta por padrão */
+    position: fixed; /* Faz com que o modal fique fixo na tela */
+    z-index: 1; /* Coloca o modal sobre todo o conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Adiciona scroll se necessário */
+    background-color: rgba(0,0,0,0.4); /* Fundo escuro com transparência */
+  }
+  
+  /* Conteúdo do modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 100px 15px 0 auto;
+    padding: 14px;
+    border: 1px solid #888;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #f1a008;
+}
+  
+  /* Botão de fechar do modal */
+  .close {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  button#openModalBtn {
+    left: 88vw;
+    position: relative;
+    width: 7vw;
+    height: 2vw;
+    background-color: #129454;
+    border: none;
+    font-family: 'PoetsenOne-Regular';
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.container-modal {
+  margin: 19px;
+  position: relative;
+  z-index: 1;
+}
+.container-modal > h2 {
+  margin-bottom: 20px;
+  font-family: 'PoetsenOne-Regular';
+}
+input#login-username {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
+input#login-password {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
+
+.container-modal > button {
+  background-color: #129454;
+  color: white;
+}
+.container-modal > a {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 600;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Usuário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Novo Formulário</h2>
+        <form id="new-form">
+            <button id="logout-button">Sair</button>
+            <input type="email" id="form-email" placeholder="E-mail do proprietário">
+            <input type="text" id="form-weight" placeholder="Peso do animal (kg)">
+            <input type="text" id="form-breed" placeholder="Raça do animal">
+            <textarea id="form-message" placeholder="Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Histórico de Formulários Enviados</h2>
+        <ul id="form-history"></ul>
+        
+        <a href="login.html">Sair</a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

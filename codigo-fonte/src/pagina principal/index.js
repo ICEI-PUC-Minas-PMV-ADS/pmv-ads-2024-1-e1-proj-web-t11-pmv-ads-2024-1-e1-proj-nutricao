@@ -2,3 +2,209 @@
 
 AOS.init();
 
+function validateEmail(email) {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+}
+
+function login() {
+    const email = document.getElementById('login-username').value;
+    const password = document.getElementById('login-password').value;
+
+    const storedUser = localStorage.getItem(email);
+    if (storedUser) {
+        const user = JSON.parse(storedUser);
+        if (user.password === password) {
+            alert('Login bem-sucedido!');
+            localStorage.setItem('loggedInUser', JSON.stringify(user)); // Armazena o usuário logado
+            document.getElementById('modal-title').innerText = `Bem-vindo, ${user.name}`;
+            showLoggedInState(); // Atualiza a interface para o estado logado
+            closeModal(); // Fecha o modal
+        } else {
+            alert('Senha incorreta!');
+        }
+    } else {
+        alert('Usuário não encontrado!');
+    }
+}
+
+function register() {
+    const name = document.getElementById('register-name').value;
+    const email = document.getElementById('register-username').value;
+    const password = document.getElementById('register-password').value;
+
+    if (name && validateEmail(email) && password) {
+        const user = {
+            name: name,
+            email: email,
+            password: password
+        };
+
+        localStorage.setItem(email, JSON.stringify(user));
+        alert('Cadastro realizado com sucesso!');
+        window.location.href = 'index.html'; // Redireciona para a página de login após o cadastro
+    } else {
+        alert('Por favor, preencha todos os campos corretamente.');
+    }
+}
+
+function isUserEmail(email) {
+    const loggedInUser = localStorage.getItem('loggedInUser');
+    if (loggedInUser) {
+        const user = JSON.parse(loggedInUser);
+        return user.email === email;
+    }
+    return false;
+}
+
+function showLoggedInState() {
+    const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+    if (loggedInUser) {
+        document.getElementById('modal-title').innerText = `Bem-vindo, ${loggedInUser.name}`;
+        document.getElementById('login-username').style.display = 'none';
+        document.getElementById('login-password').style.display = 'none';
+        document.querySelector('.container-modal button[onclick="login()"]').style.display = 'none';
+        document.querySelector('.container-modal a').style.display = 'none';
+        document.getElementById('logout-button').style.display = 'block';
+    }
+}
+
+if (window.location.pathname.includes("index.html")) {
+    // Função para criar elementos de formulário no histórico
+    function renderForm(formData) {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `
+            <p><strong>E-mail:</strong> ${formData.email}</p>
+            <p><strong>Peso:</strong> ${formData.weight}kg</p>
+            <p><strong>Raça:</strong> ${formData.breed}</p>
+            <p><strong>Mensagem:</strong> ${formData.message}</p>
+        `;
+        document.getElementById('form-history').appendChild(listItem);
+    }
+
+    // Adiciona o evento de envio de formulário
+    document.getElementById('new-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const email = document.getElementById('form-email').value;
+        const weight = document.getElementById('form-weight').value;
+        const breed = document.getElementById('form-breed').value;
+        const message = document.getElementById('form-message').value;
+
+        const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+
+        if (email && weight && breed && message) {
+            // Verifica se o usuário está logado
+            if (loggedInUser) {
+                // Verifica se o e-mail pertence ao usuário logado
+                if (isUserEmail(email)) {
+                    const formData = {
+                        email: email,
+                        weight: weight,
+                        breed: breed,
+                        message: message
+                    };
+
+                    // Obtém o histórico de formulários armazenado no Local Storage ou cria um array vazio se não existir
+                    let formHistory = JSON.parse(localStorage.getItem('formHistory')) || [];
+
+                    // Adiciona o novo formulário ao histórico
+                    formHistory.push(formData);
+
+                    // Atualiza o histórico de formulários no Local Storage
+                    localStorage.setItem('formHistory', JSON.stringify(formHistory));
+
+                    alert('Formulário enviado com sucesso!');
+                    renderForm(formData); // Renderiza imediatamente no histórico
+                } else {
+                    alert('o campo e-mail precisa conter seu e-mail de cadastro!');
+                }
+            } else {
+                alert('Você precisa estar logado para enviar uma mensagem!');
+            }
+
+            // Limpa os campos após enviar o formulário
+            document.getElementById('form-email').value = '';
+            document.getElementById('form-weight').value = '';
+            document.getElementById('form-breed').value = '';
+            document.getElementById('form-message').value = '';
+        } else {
+            alert('Por favor, preencha todos os campos antes de enviar o formulário.');
+        }
+    });
+
+    // Função para exibir os formulários existentes no histórico ao carregar a página
+    window.addEventListener('load', function() {
+        let formHistory = JSON.parse(localStorage.getItem('formHistory')) || [];
+        const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+
+        if (loggedInUser) {
+            // Filtra o histórico para exibir apenas os formulários do usuário logado
+            formHistory = formHistory.filter(formData => formData.email === loggedInUser.email);
+            formHistory.forEach(renderForm);
+        } 
+    });
+}
+
+// Função para abrir o modal
+function openModal() {
+    document.getElementById('myModal').style.display = 'block';
+}
+
+// Função para fechar o modal
+function closeModal() {
+    document.getElementById('myModal').style.display = 'none';
+}
+
+// Evento para abrir o modal ao clicar no botão de login
+document.getElementById('openModalBtn').addEventListener('click', openModal);
+
+// Evento para fechar o modal ao clicar no 'X'
+document.querySelector('.close').addEventListener('click', closeModal);
+
+// Adiciona o evento de logout ao botão
+document.getElementById('logout-button').addEventListener('click', function() {
+    localStorage.removeItem('loggedInUser'); // Remove o usuário logado do localStorage
+    alert('Você saiu com sucesso!');
+    window.location.href = 'index.html'; // Redireciona para a página inicial após o logout
+});
+
+// Verifica o estado de login ao carregar a página
+window.addEventListener('load', function() {
+    if (localStorage.getItem('loggedInUser')) {
+        showLoggedInState();
+    }
+});
+
+// Obtém o modal
+const modal = document.getElementById("myModal");
+
+// Obtém o botão que abre o modal
+const openModalBtn = document.getElementById("openModalBtn");
+
+// Obtém o botão dentro do modal para abrir a página
+const openPageBtn = document.getElementById("openPageBtn");
+
+// Obtém o elemento <span> que fecha o modal
+const span = document.getElementsByClassName("close")[0];
+
+// Quando o usuário clicar no botão, o modal é exibido
+openModalBtn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// Quando o usuário clicar no <span> (x) ou fora do modal, o modal é oculto
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Quando o usuário clicar no botão para abrir a página, a página é aberta na mesma guia
+openPageBtn.onclick = function() {
+  window.location.href = "modal2.html"; 
+}

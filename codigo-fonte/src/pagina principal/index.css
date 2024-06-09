@@ -5,6 +5,9 @@ footer, body, h1, h2, h3, h4, h5, h6, p, section, article, main, ul, li, div {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 main {
     margin-top: 100px;
 }
@@ -15,7 +18,8 @@ img{
 
 @font-face {
     font-family: 'PoetsenOne-Regular';
-    src: url('fontes/PoetsenOne-Regular.ttf');
+    src: url('../fontes/PoetsenOne-Regular.ttf');
+
 }
 
 /* --------------------------------------------------------------
@@ -35,6 +39,7 @@ configurações do menu Desktop
     display: flex;
     flex-direction: row-reverse;
     z-index:1;
+    align-items: center;
 }
 .logo {
     width: 225px;
@@ -43,15 +48,28 @@ configurações do menu Desktop
 }
 .lista-topo {
     margin: auto;
+    font-family: 'PoetsenOne-Regular';
 }
 .lista-topo > ul {
     display: flex;
     flex-direction: row;
 }
+.lista-topo > a {
+  text-decoration: none;
+}
 .lista-topo > ul >li {
     margin: 10px 50px 10px 50px;
     list-style: none;
 }
+.lista-topo > ul >li>a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+.lista-topo > ul >li> :hover {
+    text-decoration: none;
+    color:#F1A008;
+  }
 /* --------------------------------------------------------------
 fim das configurações do menu Desktop
 -------------------------------------------------------------- */
@@ -67,14 +85,16 @@ configurações do banner Desktop
 .img-banner {
     width: 100%;
     height: 30vw;
-    background-image: url(imagens/banner/banner-certo.png);
+    background-image: url(../imagens/banner/banner-certo.png);
     background-size: cover;
     text-align: -webkit-center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.div-banner a{
+    color: black;
+}
 .btn-banner {
     background-color: #F1A008;
     text-align: center;
@@ -170,7 +190,7 @@ configurações do sobre nós da index
 .sobre-nos-txt {
     width: 50vw;
     align-self: center;
-    font-size: 100%;
+    font-size: 115%;
     color: #858383;
     padding-left: 1em;
 }
@@ -205,7 +225,7 @@ configurações do parallax da index
     background-position: right;
     width: 100%;
     height: 29em;
-    background-image: url(imagens/parallax4.jpeg);
+    background-image: url(../imagens/parallax4.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position-y: 1px;
@@ -255,6 +275,7 @@ Configurações dos cards 2 da index
 }
 .cards-index2-txt {
     padding: 20px 20px 20px 20px;
+    height: 7.8em;
 }
 .cards-index2-txt h3 {
     padding: 0px 0px 10px 0px;
@@ -273,11 +294,17 @@ Configurações dos cards 2 da index
 #card3{
     margin: 0px 0px 0px 12px;
 }
-.cards-index2-bttn div {
+
+.cards-index2-bttn>div>a{
     width: 7em;
     height: 2.5em;
     background-color: #129454;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
 }
 .cards-index2-bttn {
     padding: 0 0 0 5%;
@@ -299,6 +326,7 @@ configurações do rodapé Desktop
     bottom: 0px;
     left: 0px;
     flex-wrap: nowrap;
+    font-family: 'PoetsenOne-Regular';
 }
 .div-rodape-itens {
     height: 300px;
@@ -307,6 +335,8 @@ configurações do rodapé Desktop
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color:white;
+    font-size: 1.3em;
 }
 .rodape-div-meio{
     border-right: 3px dashed white;
@@ -316,14 +346,19 @@ configurações do rodapé Desktop
     color:white;
     list-style-type: none;
 }
-.div-rodape-itens {
-    color:white;
+.rodape-paginas>li>a {
+    text-decoration: none;
+    color: white;
 }
 .rodape-div-meio img {
-    width: 45%;
+    width: 30%;
 }
 /* --------------------------------------------------------------
 Fim das configurações do rodapé Desktop
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do contador
 -------------------------------------------------------------- */
 .contador-div {
     width: 100%;
@@ -379,4 +414,358 @@ Fim das configurações do rodapé Desktop
     color: black;
     align-content: center;
     margin-top: 2em;
+}
+
+/* --------------------------------------------------------------
+Fim das configurações do contador
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do formulario
+-------------------------------------------------------------- */
+.formulario-fora {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F1A008;
+}
+
+#new-form {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#new-form > button {
+   background-color: #129454;
+   margin-bottom: 1em;
+   color: white;
+   font-weight: bold;
+}
+#form-email {
+    height: 2em;
+    width: 19vw;
+    margin-bottom: 1em;
+}
+#form-message {
+    height: 8em;
+    width: 19vw;
+    margin-bottom: 1em;
+}
+#form-breed {
+    height: 2em;
+    width: 19vw;
+    margin-bottom: 1em;
+}
+#form-weight {
+    height: 2em;
+    width: 19vw;
+    margin-bottom: 1em;
+}
+.container {
+    margin: 19px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container > h2 {
+    margin-bottom: 1em;
+    font-family: 'PoetsenOne-Regular';
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    z-index: 1;
+}
+ul#form-history {
+    list-style: none;
+    /* display: flex; */
+    /* margin-left: -11vw; */
+    background-color: white;
+    padding: 31px 5%;
+    border: 1px dashed;
+    margin-bottom: 1em;
+    z-index: 1;
+    border-radius: 3px;
+}
+#form-history>li {
+    margin-bottom: 1em;
+    border-bottom: 1px solid black;
+    max-width: 15em;
+}
+#form-history>li>p {
+    max-width: 15em;
+}
+
+  /* --------------------------------------------------------------
+Fim das configurações do formulario
+-------------------------------------------------------------- */
+
+  /* --------------------------------------------------------------
+configurações do raindrop
+-------------------------------------------------------------- */
+
+.container-chuva {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.raindrop {
+    position: absolute;
+    top: -100px;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+    animation: fall linear infinite;
+}
+
+/* Animação da queda */
+@keyframes fall {
+    to {
+        transform: translateY(110vh);
+    }
+}
+.icone-comida1 {
+    background-image: url(../imagens/carne3.png);
+    background-size: cover;
+}
+.icone-comida2 {
+    background-image: url(../imagens/osso.png);
+    background-size: cover;
+}
+.icone-comida3 {
+    background-image: url(../imagens/pratinho.png);
+    background-size: cover;
+}
+.icone-comida4 {
+    background-image: url(../imagens/carne3.png);
+    background-size: cover;
+}
+.icone-comida5 {
+    background-image: url(../imagens/carne3.png);
+    background-size: cover;
+}
+
+/* Gerar múltiplos elementos e suas animações */
+.raindrop:nth-child(1) {
+    left: 10%;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.raindrop:nth-child(2) {
+    left: 20%;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+}
+
+.raindrop:nth-child(3) {
+    left: 30%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.raindrop:nth-child(4) {
+    left: 40%;
+    animation-duration: 2.2s;
+    animation-delay: 1.5s;
+}
+
+.raindrop:nth-child(5) {
+    left: 50%;
+    animation-duration: 2.7s;
+    animation-delay: 0.2s;
+}
+
+.raindrop:nth-child(6) {
+    left: 60%;
+    animation-duration: 2.4s;
+    animation-delay: 1.2s;
+}
+
+.raindrop:nth-child(7) {
+    left: 70%;
+    animation-duration: 2.9s;
+    animation-delay: 0.7s;
+}
+
+.raindrop:nth-child(8) {
+    left: 80%;
+    animation-duration: 2.1s;
+    animation-delay: 0.4s;
+}
+
+.raindrop:nth-child(9) {
+    left: 90%;
+    animation-duration: 2.6s;
+    animation-delay: 1.6s;
+}
+
+.raindrop:nth-child(10) {
+    left: 95%;
+    animation-duration: 3.1s;
+    animation-delay: 0.9s;
+}
+
+  /* --------------------------------------------------------------
+Fim das configurações do raindrop
+-------------------------------------------------------------- */
+
+  /* --------------------------------------------------------------
+configurações de cadastro cadastro.html
+-------------------------------------------------------------- */
+.container-cadastro {
+    margin: 19px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cadastro{
+    background-color:#F1A008;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+#register-name, #register-password, #register-username{
+    height: 2em;
+    width: 19vw;
+    margin-bottom: 1em;
+}
+.container-cadastro > a {
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+
+  }
+  .container-cadastro > button {
+    background-color: #129454;
+    color: white;
+    margin-bottom: 20px;
+    
+  }
+  .container-cadastro > h2 {
+    margin-bottom: 20px;
+    font-family: 'PoetsenOne-Regular';
+  }
+
+  .parallax-cadastro {
+    background-position: right;
+    width: 100%;
+    height: 33em;
+    background-image: url(../imagens/card1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.parallax-texto-cadastro {
+    width: 100%;
+    height: auto;
+    padding-left: 3em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.parallax-texto div {
+    width: 32%;
+}
+.parallax2 {
+    width: 100%;
+    height: auto;
+    padding-left: 3em;
+}
+.parallax-texto-cadastro {
+    width: 100%;
+    height: auto;
+    padding-left: 0em;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 14em;
+}
+  /* --------------------------------------------------------------
+fim das configurações de cadastro cadastro.html
+-------------------------------------------------------------- */
+/* Estilo para o modal */
+.modal {
+    display: none; /* Oculta por padrão */
+    position: fixed; /* Faz com que o modal fique fixo na tela */
+    z-index: 1; /* Coloca o modal sobre todo o conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Adiciona scroll se necessário */
+    background-color: rgba(0,0,0,0.4); /* Fundo escuro com transparência */
+  }
+  
+  /* Conteúdo do modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 100px 15px 0 auto;
+    padding: 14px;
+    border: 1px solid #888;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #f1a008;
+}
+  
+  /* Botão de fechar do modal */
+  .close {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  button#openModalBtn {
+    left: 88vw;
+    position: relative;
+    width: 7vw;
+    height: 2vw;
+    background-color: #129454;
+    border: none;
+    font-family: 'PoetsenOne-Regular';
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.container-modal {
+  margin: 19px;
+  position: relative;
+  z-index: 1;
+}
+.container-modal > h2 {
+  margin-bottom: 20px;
+  font-family: 'PoetsenOne-Regular';
+}
+input#login-username {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
+input#login-password {
+  height: 1.9em;
+  width: 16em;
+  margin-bottom: 1em;
+}
+
+.container-modal > button {
+  background-color: #129454;
+  color: white;
+}
+.container-modal > a {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 600;
 }

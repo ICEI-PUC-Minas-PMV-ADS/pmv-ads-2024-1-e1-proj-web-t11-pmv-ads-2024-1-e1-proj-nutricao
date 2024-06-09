@@ -6,228 +6,294 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="modal.css">
     <title>Página Inicial - Nutricão</title>
 </head>
 
 <body>
-    
-<header>
-    <div class="div-topo">
-        <div class="logo">
-            <img src="imagens/logo.png" alt="">
+
+    <header>
+        <div class="div-topo">
+
+            <div class="logo">
+                <img src="../imagens/logo.png" alt="">
             </div>
             <div class="lista-topo">
                 <ul>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
+                    <li><a href="../pagina principal/index.html">Home</a></li>
+                    <li><a href="../Pagina Dois/segunda.pagina.index.html">Alimentos</a></li>
+                    <li><a href="../vantagens/vantagens.html">Vantagens</a></li>
+                    <li><a href="../contato/contato.html">Contato</a></li>
                 </ul>
+            </div>
+            <button id="openModalBtn">Login</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="container-chuva">
+                        <!-- Adicione múltiplos elementos para a chuva -->
+                        <div class="raindrop icone-comida1"></div>
+                        <div class="raindrop icone-comida3"></div>
+                        <div class="raindrop icone-comida2"></div>
+                        <div class="raindrop icone-comida2"></div>
+                        <div class="raindrop icone-comida3"></div>
+                        <div class="raindrop icone-comida2"></div>
+                        <div class="raindrop icone-comida3"></div>
+                        <div class="raindrop icone-comida2"></div>
+                        <div class="raindrop icone-comida1"></div>
+                        <div class="raindrop icone-comida2"></div>
+                        <span class="close">&times;</span>
+                        <div class="container-modal">
+                            <button id="logout-button" style="display: none;">Sair</button>
+                            <h2 id="modal-title">Login</h2>
+                            <input type="text" id="login-username" placeholder="Nome de Usuário">
+                            <input type="password" id="login-password" placeholder="Senha">
+                            <button onclick="login()">Entrar</button>
+                            <br>
+                            <a href="cadastro.html">Não tem uma conta? Cadastre-se</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </div>
-</header>
+    </header>
 
     <main>
 
-    <div class="div-banner" data-aos="fade">
-<div class="img-banner"><div class="banner-texto">
-    <h1>alimentação + saudável</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, veniam amet laborum nisi repellendus</p>
-</div><div class="btn-banner" ><a href="#">Saiba mais</a></div></div>
-    
-</div>
+        <div class="div-banner" data-aos="fade">
+            <div class="img-banner">
+                <div class="banner-texto">
+                    <h1>alimentação + saudável</h1>
+                    <p>A verdadeira saúde começa pelo prato do seu cão - escolha alimentos que nutrem o corpo e a alma.</p>
+                </div>
+                <a href="../Pagina Dois/segunda.pagina.index.html"><div class="btn-banner">SAIBA MAIS</div></a>
+            </div>
+
+        </div>
 
 
         <div class="div-cards-index">
 
             <div class="cards-index" data-aos="fade-left">
-                <img src="imagens/icones/icone1.png" alt="">
+                <img src="../imagens/icones/icone1.png" alt="">
                 <div>
-                    <h2>Lorem ipsum dolor</h2>
-                    <p>sit amet consectetur adipisicing elit. Aliquam nulla numquam dolore distinctio.</p>
+                    <h2>Cuidados alimentares</h2>
+                    <p>Frutas, vegetais e carnes magras são essenciais para uma dieta equilibrada e auxiliam na digestão.</p>
                 </div>
             </div>
 
             <div class="cards-index" data-aos="fade-up">
-                <img src="imagens/icones/icone2.png" alt="">
+                <img src="../imagens/icones/icone2.png" alt="">
                 <div>
-                    <h2>Lorem ipsum dolor</h2>
-                    <p>sit amet consectetur adipisicing elit. Aliquam nulla numquam dolore distinctio.</p>
+                    <h2>Observe sempre</h2>
+                    <p>Monitorar a alimentação do seu pet vai ajudar a prevenir problemas e controlar quando eles aparecerem</p>
                 </div>
             </div>
 
             <div class="cards-index" data-aos="fade-right">
-                <img src="imagens/icones/icone3.png" alt="">
+                <img src="../imagens/icones/icone3.png" alt="">
                 <div>
-                    <h2>Lorem ipsum dolor</h2>
-                    <p>sit amet consectetur adipisicing elit. Aliquam nulla numquam dolore distinctio.</p>
+                    <h2>+ Qualidade de vida</h2>
+                    <p>Boa alimentação, exercícios e visitas ao veterinário previnem doenças e garantem mais qualidade de vida.</p>
                 </div>
             </div>
 
         </div>
 
-        <div class="sobre-nos" >
+        <div class="sobre-nos">
             <div class="sobre-nos-img" data-aos="fade-right">
-                <img src="imagens/sobre-nos.png" alt="">
+                <img src="../imagens/sobre-nos.png" alt="">
             </div>
             <div class="sobre-nos-txt" data-aos="fade-left">
-                <h2>The Best for Your Pet!</h2>
+                <h2>O melhor para o seu Pet!</h2>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                    <p>Eam ad sale persius, id vis iudicabit cor rumpit. Usu ad modo illum assum.</p>
-</div>
+                    <p>A saúde animal é essencial para garantir o bem-estar e a longevidade dos nossos pets. Cuidar da
+                        saúde dos animais envolve boa alimentação, visitas regulares ao veterinário, prevenção de
+                        doenças e um ambiente saudável.</p>
+                    <p>Itens importantes para a saúde animal:</p>
+                </div>
 
                 <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur</li>
-                    <li>No delenit detracto eum, vix ne integre taci</li>
-                    <li>An pro facete dicuntei ut epicuri</li>
+                    <li>Alimentação Balanceada</li>
+                    <li>Exercícios Regulares</li>
+                    <li>Cuidados Veterinários</li>
                 </ul>
             </div>
         </div>
 
         <div class="parallax">
             <div class="parallax-texto">
-            <div>
-                <h2>Want a pet for <br> your loved ones?</h2>
-                <p>Elit sanctus mea no. Ne duo vocent vocibus consetetur. Singulis etam pericula an vis, pri graeco partiendo te, alii admodum copiosae id sea. Per no malis liber fierent.</p>
-            </div>
+                <div>
+                    <h2>Por que escolher a <br> Alimentação Natural?</h2>
+                    <p>A alimentação natural pode trazer diversos benefícios para os cães, ajudando a melhorar a saúde
+                        geral e o bem-estar deles. Optar por uma dieta natural significa oferecer ingredientes frescos e
+                        não processados, como carnes, vegetais, frutas e ossos crus, que imitam a alimentação que os
+                        cães teriam na natureza. Isso pode resultar em várias melhorias significativas.</p>
+                </div>
             </div>
         </div>
 
 
         <div class="cards-index2-fora">
             <div class="cards-index2" id="card1">
-                <div><img src="imagens/card1.jpg" alt=""></div>
-                <div class="cards-index2-txt"><h3>lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae, rerum expedita illo aliquid sed quod laboriosam fugit dolores nemo consectetur.</p></div>
+                <div><img src="../imagens/card1.jpg" alt=""></div>
+                <div class="cards-index2-txt">
+                    <h3>Saúde intestinal</h3>
+                    <p>A alimentação natural canina melhora a saúde digestiva, resultando em fezes mais firmes e menos
+                        odor, além de reduzir gases e inchaços.</p>
+                </div>
                 <div class="cards-index2-bttn">
-                   <div></div>
+                    <div><a href="../vantagens/vantagens.html">Saiba +</a></div>
                 </div>
             </div>
             <div class="cards-index2" id="card2">
-                <div><img src="imagens/card2.jpg" alt=""></div>
-                <div class="cards-index2-txt"><h3>lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae, rerum expedita illo aliquid sed quod laboriosam fugit dolores nemo consectetur.</p></div>
-                    <div class="cards-index2-bttn">
-                   <div></div>
+                <div><img src="../imagens/card2.jpg" alt=""></div>
+                <div class="cards-index2-txt">
+                    <h3>Pelo brilhoso</h3>
+                    <p>Ela também melhora a pele e pelagem dos cães, deixando-as mais saudáveis e brilhantes, graças aos
+                        nutrientes essenciais presentes nos ingredientes frescos.</p>
+                </div>
+                <div class="cards-index2-bttn">
+                    
+                        <div><a href="../vantagens/vantagens.html">Saiba +</a></div>
+                    
                 </div>
             </div>
             <div class="cards-index2" id="card3">
-                <div><img src="imagens/card3.jpg" alt=""></div>
-                <div class="cards-index2-txt"><h3>lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae, rerum expedita illo aliquid sed quod laboriosam fugit dolores nemo consectetur.</p></div>
-                    <div class="cards-index2-bttn">
-                   <div></div>
+                <div><img src="../imagens/card3.jpg" alt=""></div>
+                <div class="cards-index2-txt">
+                    <h3>Saúde energética</h3>
+                    <p>Além disso, aumenta a energia e vitalidade dos cães, mantendo níveis de energia estáveis e
+                        contribuindo para um peso saudável e uma vida mais ativa.</p>
+                </div>
+                <div class="cards-index2-bttn">
+                    <div><a href="../vantagens/vantagens.html">Saiba +</a></div>
                 </div>
             </div>
-            </div>
-
-            <div class="div-cards-contador">
-
-            <div class="cards-contador-fora">
-                <div class="cards-contador">
-                    <img src="imagens/icones/icone1.png" alt="">
-                    <div class="contador">
-                       0
-                    </div>
-                </div>
-                <div class="p-contador">lorem ipsum</div>
-            </div>
-
-            <div class="cards-contador-fora">
-                <div class="cards-contador">
-                    <img src="imagens/icones/icone2.png" alt="">
-                    <div class="contador">
-                       0
-                    </div>
-                </div>
-                <div class="p-contador">lorem ipsum</div>
-            </div>
-
-            <div class="cards-contador-fora">
-                <div class="cards-contador">
-                    <img src="imagens/icones/icone3.png" alt="">
-                    <div class="contador">
-                       0
-                    </div>
-                </div>
-                <div class="p-contador">lorem ipsum</div>
-            </div>
-            
-
         </div>
 
+        <div class="div-cards-contador">
 
-        <script src="index.js"></script>
-        <script src="index2.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
-<script>
-        
-    function count(){
-     // Objeto counter usado para armazenar o valor do contador
-     var contador = { var: 0 };
-    
-     // Utilizando a biblioteca TweenMax para animar o contador
-     TweenMax.to(contador, 3, {
-       // Definindo o valor final do contador como 100
-       var: 1725, 
-       
-       // Função chamada a cada atualização do valor do contador
-       onUpdate: function () {
-         // Arredonda o valor do contador para o inteiro mais próximo
-         var number = Math.ceil(contador.var);
-         
-         // Atualiza o conteúdo do elemento HTML com a classe 'contador' com o valor arredondado do contador
-         $('.contador').html(number);
-         
-         // Verifica se o número arredondado é igual ao valor atual do contador
-         if(number === contador.var){ 
-           // Se sim, encerra a animação
-           count.kill(); 
-         }
-       },
-       
-       // Função chamada quando a animação é concluída
-       onComplete: function(){
-         // Reinicia a contagem
-         count();
-       },    
-       
-       // Define a função de animação para acelerar e desacelerar com o tempo
-       ease:Circ.easeOut
-     });
-    }
-    
-    // Inicia a contagem
-    count();
-    </script>
+            <div class="cards-contador-fora">
+                <div class="cards-contador">
+                    <img src="../imagens/icones/icone1.png" alt="">
+                    <div class="contador">
+                        0
+                    </div>
+                </div>
+                <div class="p-contador">lorem ipsum</div>
+            </div>
+
+            <div class="cards-contador-fora">
+                <div class="cards-contador">
+                    <img src="../imagens/icones/icone2.png" alt="">
+                    <div class="contador">
+                        0
+                    </div>
+                </div>
+                <div class="p-contador">lorem ipsum</div>
+            </div>
+
+            <div class="cards-contador-fora">
+                <div class="cards-contador">
+                    <img src="../imagens/icones/icone3.png" alt="">
+                    <div class="contador">
+                        0
+                    </div>
+                </div>
+                <div class="p-contador">lorem ipsum</div>
+            </div>
+        </div>
+
+        <div class="container-chuva">
+            <!-- Adicione múltiplos elementos para a chuva -->
+            <div class="raindrop icone-comida1"></div>
+            <div class="raindrop icone-comida3"></div>
+            <div class="raindrop icone-comida2"></div>
+            <div class="raindrop icone-comida2"></div>
+            <div class="raindrop icone-comida3"></div>
+            <div class="raindrop icone-comida2"></div>
+            <div class="raindrop icone-comida3"></div>
+            <div class="raindrop icone-comida2"></div>
+            <div class="raindrop icone-comida1"></div>
+            <div class="raindrop icone-comida2"></div>
+
+            <div class="formulario-fora">
+                <div class="container">
+                    <h2>Envie-nos uma mensagem!</h2>
+                    <form id="new-form">
+                        <input type="email" id="form-email" placeholder="E-mail do proprietário">
+                        <input type="text" id="form-weight" placeholder="Peso do animal (kg)">
+                        <input type="text" id="form-breed" placeholder="Raça do animal">
+                        <textarea id="form-message" placeholder="Mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <h2>Histórico de mensagens enviadas</h2>
+                    <ul id="form-history"></ul>
+                </div>
+            </div>
+        </div>
+
     </main>
-   
-    <footer>
-    <div class="div-rodape">
-        <div class="div-rodape-itens">
-        Rua ipsum lorem lorem , 256 <br>
-        Jardim Sta. Cecilia <br>
-        São Paulo - SP <br>
-        </div>
 
-        <div class="div-rodape-itens rodape-div-meio">
-            <img src="imagens/logo-rodape.png" alt="logo">
-            <h3 style= color:white; >Nutricão - LTDA</h3>
+    <footer>
+        <div class="div-rodape">
+            <div class="div-rodape-itens">
+                Rua ipsum lorem lorem , 256 <br>
+                Jardim Sta. Cecilia <br>
+                São Paulo - SP <br>
+            </div>
+
+            <div class="div-rodape-itens rodape-div-meio">
+                <img src="../imagens/logo-rodape.png" alt="logo">
+                <h3 style=color:white;>Nutricão - LTDA</h3>
+            </div>
+            <div class="endereco-rodape"></div>
+            <div class="div-rodape-itens">
+                <ul class="rodape-paginas">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre-nos.html">Sobre nós</a></li>
+                    <li><a href="calculadora.html">Calculadora nutricional</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="endereco-rodape"></div>
-        <div class="div-rodape-itens">
-            <ul class="rodape-paginas">
-                <li>ITEM</li>
-                <li>ITEM</li>
-                <li>ITEM</li>
-                <li>ITEM</li>
-            </ul>
-        </div>
-    </div>
-</footer>
-    
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        function count() {
+            // Objeto counter usado para armazenar o valor do contador
+            var contador = { var: 0 };
+            // Utilizando a biblioteca TweenMax para animar o contador
+            TweenMax.to(contador, 3, {
+                // Definindo o valor final do contador como 100
+                var: 1725,
+                // Função chamada a cada atualização do valor do contador
+                onUpdate: function () {
+                    // Arredonda o valor do contador para o inteiro mais próximo
+                    var number = Math.ceil(contador.var);
+                    // Atualiza o conteúdo do elemento HTML com a classe 'contador' com o valor arredondado do contador
+                    $('.contador').html(number);
+                    // Verifica se o número arredondado é igual ao valor atual do contador
+                    if (number === contador.var) {
+                        // Se sim, encerra a animação
+                        count.kill();
+                    }
+                },
+                // Função chamada quando a animação é concluída
+                onComplete: function () {
+                    // Reinicia a contagem
+                    count();
+                },
+                // Define a função de animação para acelerar e desacelerar com o tempo
+                ease: Circ.easeOut
+            });
+        }
+        // Inicia a contagem
+        count();
+    </script>
 </body>
 
 </html>

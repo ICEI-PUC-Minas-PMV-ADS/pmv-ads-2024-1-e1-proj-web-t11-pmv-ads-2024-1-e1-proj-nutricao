@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="openModalBtn">Abrir Modal</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="container">
+        <h2>Login</h2>
+        <input type="text" id="login-username" placeholder="Nome de Usuário">
+        <input type="password" id="login-password" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+        <a href="cadastro.html">Não tem uma conta? Cadastre-se</a>
+    </div>
+
+    <script src="index.js"></script>
+    
+  </div>
+</div>
+<script src="modal.js"></script>
+</body>
+</html>
