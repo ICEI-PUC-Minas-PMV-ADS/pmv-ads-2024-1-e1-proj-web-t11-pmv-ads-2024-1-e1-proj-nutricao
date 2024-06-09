@@ -19,7 +19,7 @@ img{
 }
 
 /* --------------------------------------------------------------
-fim das configurações do gerais 
+fim das configurações gerais 
 -------------------------------------------------------------- */
 
 /* --------------------------------------------------------------
@@ -121,10 +121,62 @@ configurações do banner Desktop
 /* --------------------------------------------------------------
 fim configurações do banner Desktop
 -------------------------------------------------------------- */
+/* --------------------------------------------------------------
+configurações calculadora
+-------------------------------------------------------------- */
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-container select, .form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
 
+.form-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+ 
+}
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
 
+#resultado {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+}
 
+/* --------------------------------------------------------------
+fim configurações calculadora
+-------------------------------------------------------------- */
 
+#disclaimer {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+}
 
 /* --------------------------------------------------------------
 configurações do rodapé Desktop
