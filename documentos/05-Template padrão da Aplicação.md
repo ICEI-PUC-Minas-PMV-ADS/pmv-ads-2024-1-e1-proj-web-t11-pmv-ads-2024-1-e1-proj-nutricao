@@ -18,11 +18,11 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
   
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/tree/main/codigo-fonte/src">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/tree/main/codigo-fonte/src/imagens">aqui</a>.
 
-<h3><b>Tela inicial </b></h3>
-<p>Exibe informações sobre a alimentação dos pets.</p>
+<h3><b>Tela de contato </b></h3>
+<p>Exibe o formulario de contato.</p>
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/tree/main/codigo-fonte/src/imagens">
-  <figcaption> Figura 1 - inicial
+  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/main/documentos/img/Tela%20contato%20Nutricão.png">
+  <figcaption> Figura 1 - tela de contato
 </figure> 
 
 <h3><b>Tela da calculadora de alimentos</b></h3>
