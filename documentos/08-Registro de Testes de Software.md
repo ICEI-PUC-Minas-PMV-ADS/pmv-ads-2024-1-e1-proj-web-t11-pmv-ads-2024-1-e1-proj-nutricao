@@ -13,7 +13,9 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 
 <ol>
-  <li> CT-01: Verificar o funcionamento dos formulario de contato.
+  <li> CT-01: Verificar o funcionamento do formulario de contato.
+
+ resultado:concluido
 
   Responsável: Nicolas.
 
