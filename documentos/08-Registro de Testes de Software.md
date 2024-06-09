@@ -23,4 +23,16 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 
   </li>
+
+  <ol>
+  <li> CT-01: Verificar o funcionamento do formulario de contato.
+
+ resultado:concluido
+
+  Responsável: Nicolas.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/a8d7e9dc-7454-412d-adb6-273f5d106aa4)
+
+
+  </li>
   <hr>
