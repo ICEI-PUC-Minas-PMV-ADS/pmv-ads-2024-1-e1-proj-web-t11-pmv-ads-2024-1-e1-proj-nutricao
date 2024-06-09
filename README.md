@@ -36,7 +36,7 @@ Portal sobre alimentação natural canina, contendo informações sobre o assunt
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+*  A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/index.html> aqui</a>  para acessá-lo.**
 
 # Código-Fonte
 
