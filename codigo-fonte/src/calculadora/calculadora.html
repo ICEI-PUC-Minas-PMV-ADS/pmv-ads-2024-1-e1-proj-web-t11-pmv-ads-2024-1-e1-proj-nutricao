@@ -96,16 +96,17 @@
         </div>
         <script src="calculadora.js"></script> <!-- Referência ao arquivo JavaScript externo -->
         <div id="resultado"></div>
-        <div>
+        <div id="saibamais">
             <h2 id="comousar">Como Utilizar a calculadora</h2>
             <h3>Cães Adultos</h3>
             <p>Faça o cálculo com base no peso corpóreo do seu pet. Seguindo esse método um cão adulto deve receber por dia de 3 a 
                 10% do seu peso ideal em alimentos diariamente. O intervalo é grande propositalmente, porque há vários fatores a se considerar.
-                Fatores que influenciam diretamente a necessidade de servir mais ou menos comida.</p>
+                Fatores que influenciam diretamente a necessidade de servir mais ou menos comida:</p>
             <h4>Porte</h4>
-            <p>Cães de porte miniatura e pequeno requerem mais alimentos proporcionalmente ao seu peso que os maiores. Isso porque têm o metabolismo mais acelerado.  Alguns Chihuahuas adultos chegam a comer 8 a 10% de seu peso em AN por dia. Em contrapartida, cães gigantes costumam ficar bem comendo 3% de seu peso corpóreo saudável.
+            <p>Cães de porte miniatura e pequeno requerem mais alimentos proporcionalmente ao seu peso que os maiores. Isso porque têm o metabolismo mais acelerado.  Alguns Chihuahuas adultos chegam
+                a comer 8 a 10% de seu peso em AN por dia. Em contrapartida, cães gigantes costumam ficar bem comendo 3% de seu peso corpóreo saudável.
                 Veja como as porcentagens médias para portes diferentes refletem essa diferença: </p>
-            <ul>
+            <ul class="lista">
                 <li>Porte miniatura até 3kg: 7-10% do peso corpóreo. Logo, um Chihuahua que pesa 2kg vai receber 160 gramas de AN por dia, o que equivale a 8% do peso dele.</li>
                 <li>Porte miniatura pesando entre 3 e 5kg: 5 a 6% do peso corpóreo. Logo, um Maltês que pesa 3,5kg vai receber 210g de AN por dia, o que equivale a 6% do peso dele.</li>
                 <li>Porte pequeno entre 5 e 10kg: 4 a 6% do peso corpóreo.  Logo, um Dachshund (“salsicha”) que pesa 7kg vai receber 350 gramas de AN por dia, o que equivale a 5% do peso dele.</li>
@@ -114,7 +115,86 @@
                 <li>Porte grande entre 35kg a 42kg: 3 a 4% do peso corpóreo. Logo, um Golden Retriever que pesa 36kg vai receber 1.4kg de AN por dia, o que equivale a 4% do seu peso corpóreo.</li>
                 <li>Porte gigante (de 42kg para cima): 3 a 4% do peso corpóreo. Logo, um Dogue Alemão que pesa 70kg vai receber 2.1kg de AN por dia, o que equivale a 3% do seu peso corpóreo.</li>
             </ul>
-                <p>Observação importante: o cálculo deve ser feito em cima do peso ideal do seu peludo. Não em cima do peso gordo ou magro demais dele. Por exemplo, se o seu Labrador está pesando 30kg mas deveria pesar 26kg, faça o cálculo sobre o peso que ele deveria ter (26kg) e não sobre o peso que ele tem (30kg). Vale o mesmo se seu amigão estiver mais magrinho do que o desejável. </p>
+                <p>Observação importante: o cálculo deve ser feito em cima do peso ideal do seu peludo. Não em cima do peso gordo ou magro demais dele. Por exemplo, se o seu Labrador está pesando 30kg mas 
+                deveria pesar 26kg, faça o cálculo sobre o peso que ele deveria ter (26kg) e não sobre o peso que ele tem (30kg). Vale o mesmo se seu amigão estiver mais magrinho do que o desejável. </p>
+            <h4>Raça</h4>
+            <p>Há raças com tendência a ganhar peso e existem raças com dificuldade para engordar. Dentre as raças propensas a ganhar peso estão:</p>
+            <ul class="lista">
+                <li>Spitz Alemão (o Lulu da Pomerânia)</li>
+                <li>Dachshund</li>
+                <li>Pug</li>
+                <li>Beagle</li>
+                <li>Basset Hound</li>
+                <li>Labrador retriever</li>
+            </ul>
+            <p>Já outras raças costumam ter dificuldade em ganhar peso, como:</p>
+            <ul>
+                <li>Boxer</li>
+                <li>Border collie</li>
+                <li>Buldogue francês</li>
+                <li>Dobermann</li>
+            </ul>
+            <h4>Idade</h4>
+            <p>Cachorros jovens adultos e adultos têm o metabolismo mais ativo e em geral requerem uma porcentagem mais elevada do que os de meia idade.Ao contrário do que muita gente pensa,
+                cães idosos podem requerer mais alimentos que cães de meia idade. Isso porque nessa fase da vida cai um pouco a capacidade do organismo de aproveitar os nutrientes, o que aumenta o 
+                requerimento de certos elementos, como a proteína, para prevenir o desgaste muscular que acompanha o envelhecimento. Assim sendo, um beagle de 12 meses (jovem adulto) pode receber 
+                5% do seu peso corpóreo, depois passar a 4,5% aos 2 anos (adulto), descer para 3,5% com 5 anos (meia idade) e voltar a 4 ou 4,5% aos 12 anos (idoso).</p>
+            <h4>Status reprodutivo</h4>
+            <p>Não é regra, é claro, mas a castração pode predispor ao ganho de peso. A queda na circulação de hormônios sexuais aumenta o apetite de alguns indivíduos e pode tornar o metabolismo 
+                um pouco mais lento. Portanto, recomendo aumentar um pouco a porcentagem usada para calcular a dieta de cães intactos (não castrados) e reduzir um pouco a porcentagem no caso dos esterilizados.
+                Em geral 0,5% a mais ou a menos já faz uma grande diferença. </p>
+            <h4>Grau de atividade</h4>
+            <p>Esse é um ponto dos mais importantes. Cachorros que não param quietos, atletas, nadadores, que correm ao lado do tutor, que frequentam creche canina e participam de todas as atividades 
+                precisam de mais calorias. Não tenha receio de aumentar a % para esse grupo.</p>
+            <h4>Clima</h4>
+            <p>No auge do verão o corpo pede menos comida por bons motivos fisiológicos. O oposto acontece nos meses frios, quando o organismo exige mais calorias para manter a temperatura corporal estável.
+                Assim sendo, tudo bem reduzir um pouco a porcentagem calculada de alimentos no verão e aumentar um pouco durante o inverno. </p>
+            <h3>Cães Filhotes</h3>
+            <p>Filhotes estão em fase de intenso desenvolvimento ósseo, muscular, visceral, neurológico. A duração desse período varia de raça para raça (ou de porte para porte no caso dos cães sem raça definida).
+                Enquanto cães de porte pequeno concluem o desenvolvimento físico por volta dos 12 meses, os de porte grande e gigante ainda são filhotões nessa idade.
+                Seja como for, filhotes comem bastante em relação ao seu peso corpóreo, chegando a receber até 10% de seu peso em alimentos por dia. A porcentagem empregada para o cálculo vai reduzindo à medida 
+                que eles crescem.
+                Veja abaixo minhas sugestões de porcentagens:
+                Obs: o cálculo é feito sobre o peso atual do filhote. Ou seja, o peso que ele tem nesse momento. Não calcule sobre o peso que ele terá quando adulto.</p>
+                <h4>Filhotes que quando adultos terão porte pequeno (5kg a 10kg):</h4>
+                <ul>
+                    <li>2 a 4 meses de idade: por volta de 10% </li>
+                    <li>4 a 6 meses de idade: por volta de 8% </li>
+                    <li>6 a 8 meses de idade: por volta de 6 a 7% </li>
+                    <li>8 a 10 meses de idade: por volta de 5 a 6% </li>
+                    <li>10 meses em diante: por volta de 4 a 6% </li>
+                </ul>
+
+                <h4>Filhotes que quando adultos terão porte médio (10-25kg):</h4>
+                <ul>
+                    <li>2 a 4 meses de idade: por volta de 10% </li>
+                    <li>4 a 6 meses de idade: por volta de 8% </li>
+                    <li>6 a 8 meses de idade: por volta de 6 a 7% </li>
+                    <li>8 a 10 meses de idade: por volta de 5 a 6% </li>
+                    <li>10 a 18 meses: por volta de 4 a 6% </li>
+                    <li>18 meses em diante: por volta de 4 a 5% </li>
+                </ul>
+
+                <h4>Filhotes que quando adultos terão porte grande (25 a 35kg):</h4>
+                <ul>
+                    <li>2 a 4 meses de idade: por volta de 8% </li>
+                    <li>4 a 6 meses de idade: por volta de 7% </li>
+                    <li>6 a 8 meses de idade: por volta de 6 a 7% </li>
+                    <li>8 a 10 meses de idade: por volta de 5 a 6% </li>
+                    <li>10 a 18 meses de idade: por volta de 4 a 5% </li>
+                    <li>18 meses em diante: por volta de 4 a 5% </li>
+                </ul>
+
+                <h4>Filhotes que quando adultos terão porte gigante (acima de 35kg):</h4>
+                <ul>
+                    <li>2 a 4 meses de idade: por volta de 8% </li>
+                    <li>4 a 6 meses de idade: por volta de 7% </li>
+                    <li>6 a 8 meses de idade: por volta de 6% </li>
+                    <li>8 a 10 meses de idade: por volta de 5% </li>
+                    <li>10 a 14 meses: por volta de 4 a 5%</li>
+                    <li>18 a 24 meses: por volta de 4%</li>
+                    <li>24 meses em diante: 3 a 4% </li>
+                </ul>
         </div>
 
         <div>
@@ -153,5 +233,7 @@
 </footer>
 
 </body>
+
+</html>
 
 </html>
