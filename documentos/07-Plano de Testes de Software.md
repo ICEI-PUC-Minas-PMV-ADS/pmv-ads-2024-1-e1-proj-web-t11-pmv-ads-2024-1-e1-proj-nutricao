@@ -11,6 +11,43 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Passos | Indicar passos para a execução do teste |
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: verificar funcionamento da página e formulario de contato</td>
+  <td>
+   <ul>
+    <li>RF-009:A aplicação deve conter formulário de contato para comunicação e captura de lead.</li>
+   </ul>
+  </td>
+  <td>Verificar se a página de contato está funcionando e se está mandando o formulario</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar na página  Contato.</li>
+    <li>completar o formulario com informações e mandar, para ver se é enviado.</li>
+   </ol>
+   </td>
+  <td>o formulario deve ser enviado com êxito.</td>
+  <td>Nicolas</td>
+ </tr>
+</table>
+
+
+
+
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
