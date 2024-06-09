@@ -7,49 +7,49 @@ document.getElementById('pet-form').addEventListener('submit', function(event) {
     const peso = parseFloat(document.getElementById('peso').value);
 
     // Parâmetros de cálculo (exemplo)
-    let factorPorte = 0;
-    let factorRaca = 0;
+    let fatorPorte = 0;
+    let fatorRaca = 0;
 
     // Definindo os fatores de acordo com o porte
     switch (porte) {
         case 'miniatura':
-            factorPorte = 0.07;
+            fatorPorte = 0.07;
             break;
             case 'miniatura2':
-            factorPorte = 0.06;
+            fatorPorte = 0.06;
             break;
         case 'pequeno':
-            factorPorte = 0.045;
+            fatorPorte = 0.045;
             break;
         case 'medio':
-            factorPorte = 0.04;
+            fatorPorte = 0.04;
             break;
          case 'grande':
-            factorPorte = 0.04;
+            fatorPorte = 0.04;
             break;
         case 'grande2':
-            factorPorte = 0.035;
+            fatorPorte = 0.035;
             break;
         case 'gigante':
-            factorPorte = 0.03;
+            fatorPorte = 0.03;
             break;
     }
 
     // Definindo os fatores de acordo com a raça
     switch (raca) {
         case 'normais':
-            factorRaca = 1.0;
+            fatorRaca = 1.0;
             break;
         case 'tendencia_peso':
-            factorRaca = 1.2;
+            fatorRaca = 0.8;
             break;
         case 'dificuldade_peso':
-            factorRaca = 0.8;
+            fatorRaca = 1.1;
             break;
     }
 
     // Cálculo: quantidade diária de alimento (em gramas)
-    const quantidadeAlimento = peso * factorPorte * factorRaca * 1000;
+    const quantidadeAlimento = peso * fatorPorte * fatorRaca * 1000;
 
     // Distribuição dos tipos de alimentos
     const quantidadeOssosCarnudos = quantidadeAlimento * 0.5;
