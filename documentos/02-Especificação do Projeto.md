@@ -87,6 +87,9 @@
 | RF-07 |A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.| MÉDIA |
 | RF-08 |A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ) | BAIXA |
 | RF-09 |A aplicação deve conter formulário de contato para comunicação e captura de lead.| MÉDIA |
+| RF-10 |A aplicação devera permitir o usuario cadastrar uma conta.| ALTA |
+| RF-11 |A aplicação devera permitir o usuario logar na sua conta.| ALTA |
+
 
 **Prioridade: Alta / Média / Baixa. 
 
