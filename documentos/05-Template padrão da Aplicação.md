@@ -36,7 +36,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <p>Para a criação do logotipo do site foi utilizada a cor laranja e a verde, pois esta cor remete a aspectos da natureza e do bem estar (PATEL, 2021). A utilização da imagem de um cachorro foi escolhida pois as dietas feitas aqui são para os cachorros.</p>
 
 <figure> 
-  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/main/codigo-fonte/src/imagens/logo.png" width="200" height="200">
+  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/main/codigo-fonte/src/imagens/logo.png" width="400" height="200">
     <figcaption>Figura 3 - Logotipo da aplicação web nutricão
 </figure> 
 
@@ -50,9 +50,3 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
