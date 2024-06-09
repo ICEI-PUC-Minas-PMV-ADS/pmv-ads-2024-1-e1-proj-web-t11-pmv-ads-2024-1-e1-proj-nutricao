@@ -65,21 +65,69 @@
                 </div>
                 <div class="btn-banner"><a href="#">Saiba mais</a></div>
             </div>
+        </div>
 
+        <!-- Calculadora -->
+        <div class="form-container">
+            <form id="pet-form">
+                <label for="porte">Porte:</label>
+                <select id="porte" name="porte">
+                    <option value="miniatura">Miniatura (até 3kg)</option>
+                    <option value="miniatura2">Miniatura (entre 3 e 5kg)</option>
+                    <option value="pequeno">Pequeno (entre 6 e 10kg)</option>
+                    <option value="medio">Médio (entre 11 e 25kg)</option>
+                    <option value="grande">Grande (entre 26 e 35kg)</option>
+                    <option value="grande2">Grande (entre 36 e 42kg)</option>
+                    <option value="gigante">Gigante (acima de 43kg)</option>
+                </select>
+    
+                <label for="raca">Tipo da raça:</label>
+                <select id="raca" name="raca">
+                    <option value="normais">Raças Normais</option>
+                    <option value="tendencia_peso">Tendência a ganhar peso (Spitz alemão, dachshund, pug, beagle, basset hound, labrador retriever)</option>
+                    <option value="dificuldade_peso">Dificuldade de ganhar peso (Boxer, border collie, buldogue francês, dobermann)</option>
+                </select>
+    
+                <label for="peso">Peso do cão (kg):</label>
+                <input type="number" id="peso" name="peso" step="1" min="0">
+    
+                <input type="submit" value="Calcular Quantidades">
+            </form>
+        </div>
+        <script src="calculadora.js"></script> <!-- Referência ao arquivo JavaScript externo -->
+        <div id="resultado"></div>
+        <div>
+            <h2>Como Utilizar a calculadora</h2>
+            <h3>Cães Adultos</h3>
+            <p>Faça o cálculo com base no peso corpóreo do seu pet. Seguindo esse método um cão adulto deve receber por dia de 3 a 
+                10% do seu peso ideal em alimentos diariamente. O intervalo é grande propositalmente, porque há vários fatores a se considerar.
+                Fatores que influenciam diretamente a necessidade de servir mais ou menos comida.</p>
+            <h4>Porte</h4>
+            <p>Cães de porte miniatura e pequeno requerem mais alimentos proporcionalmente ao seu peso que os maiores. Isso porque têm o metabolismo mais acelerado.  Alguns Chihuahuas adultos chegam a comer 8 a 10% de seu peso em AN por dia. Em contrapartida, cães gigantes costumam ficar bem comendo 3% de seu peso corpóreo saudável.
+                Veja como as porcentagens médias para portes diferentes refletem essa diferença: </p>
+            <ul>
+                <li>Porte miniatura até 3kg: 7-10% do peso corpóreo. Logo, um Chihuahua que pesa 2kg vai receber 160 gramas de AN por dia, o que equivale a 8% do peso dele.</li>
+                <li>Porte miniatura pesando entre 3 e 5kg: 5 a 6% do peso corpóreo. Logo, um Maltês que pesa 3,5kg vai receber 210g de AN por dia, o que equivale a 6% do peso dele.</li>
+                <li>Porte pequeno entre 5 e 10kg: 4 a 6% do peso corpóreo.  Logo, um Dachshund (“salsicha”) que pesa 7kg vai receber 350 gramas de AN por dia, o que equivale a 5% do peso dele.</li>
+                <li>Porte médio, entre 10 a 25kg: 4 a 5% do peso corpóreo. Logo, um Cocker Spaniel Inglês que pesa 13kg vai receber 650 gramas de AN por dia, o que equivale a 5% do peso dele.</li>
+                <li>Porte grande entre 25 a 35kg: 4 a 5% do peso corpóreo. Logo, um Boxer que pesa 27kg vai receber 1kg de AN por dia, o que equivale a 4% do seu peso corpóreo.</li>
+                <li>Porte grande entre 35kg a 42kg: 3 a 4% do peso corpóreo. Logo, um Golden Retriever que pesa 36kg vai receber 1.4kg de AN por dia, o que equivale a 4% do seu peso corpóreo.</li>
+                <li>Porte gigante (de 42kg para cima): 3 a 4% do peso corpóreo. Logo, um Dogue Alemão que pesa 70kg vai receber 2.1kg de AN por dia, o que equivale a 3% do seu peso corpóreo.</li>
+            </ul>
+                <p>Observação importante: o cálculo deve ser feito em cima do peso ideal do seu peludo. Não em cima do peso gordo ou magro demais dele. Por exemplo, se o seu Labrador está pesando 30kg mas deveria pesar 26kg, faça o cálculo sobre o peso que ele deveria ter (26kg) e não sobre o peso que ele tem (30kg). Vale o mesmo se seu amigão estiver mais magrinho do que o desejável. </p>
         </div>
 
         <div>
-            <p>As dietas disponíveis nesse site são indicadas somente para pets comprovadamente saudáveis. Antes de
+            <p id="disclaimer">As dietas disponíveis nesse site são indicadas somente para pets comprovadamente saudáveis. Antes de
                 oferecer qualquer uma das opções de alimentação sugeridas aqui você deve consultar o/a veterinário/a do
                 seu pet e contar com o acompanhamento dele/a durante a transição.
-
-                As dietas disponíveis neste site são para uso doméstico somente, não são adequadas para comercialização.
                 Perante a <a
                     href="https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-pecuarios/alimentacao-animal/alimentos-para-animais-de-companhia">
                     lei federal </a>(Decreto 6.296/07 e Instrução Normativa n° 30/09) todo alimento comercial para
                 animais de companhia deve estar devidamente registrado no Ministério da Agricultura, Pecuária e
                 Abastecimento.</p>
         </div>
+
 <footer>
     <div class="div-rodape">
         <div class="div-rodape-itens">
