@@ -34,9 +34,9 @@ Portal sobre alimentação natural canina, contendo informações sobre o assunt
 <li><a href="documentos/09-Referências Bibliográficas.md"> Referências Bibliográficas</a></li>
 </ol>
 
-# Hospedagem
+# [Hospedagem](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/index.html )
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+ 
 
 # Código-Fonte
 
