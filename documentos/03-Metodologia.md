@@ -63,7 +63,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/tree/main/documentos|
 | Projeto de Interface                | Figma                              |https://www.figma.com/file/1MtlTY1k4rohAIlkVJ06hl/Untitled?type=design&node-id=0%3A1&mode=design&t=n0zGSlm1VODerFVa-1                      |
 | Gerenciamento do Projeto            | GitHub Projects                    |https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1039/views/1|
-<!--| Hospedagem                          | GitHub Pages                       | http://....                            |-->
+| Hospedagem                          | GitHub Pages                       | https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/index.html|
 
 
 ### Estratégia de Organização de Codificação 
