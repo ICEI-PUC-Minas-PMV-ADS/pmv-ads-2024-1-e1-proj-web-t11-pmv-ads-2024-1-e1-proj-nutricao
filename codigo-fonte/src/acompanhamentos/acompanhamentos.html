@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Informação do Cão</title>
+    <link rel="stylesheet" href="acompanhamentos.css">
+    <link rel="stylesheet" href="../pagina principal/index.css">
+</head>
+<body>
+   <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Página Inicial - Nutricão</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="div-topo">
+
+            <div class="logo">
+                <img src="../imagens/logo.png" alt="">
+            </div>
+            <div class="lista-topo">
+                <ul>
+                    <li><a href="../pagina principal/index.html">Home</a></li>
+                    <li><a href="../Pagina Dois/segunda.pagina.index.html">Alimentos</a></li>
+                    <li><a href="../vantagens/vantagens.html">Vantagens</a></li>
+                    <li><a href="../contato/contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <a href="../acompanhamentos/acompanhamentos.html"><button id="openModalBtn">Acompanhamento</button></a>
+
+        </div>
+    </header>
+    <div class="div-banner" data-aos="fade">
+        <div class="img-banner">
+            <div class="banner-texto">
+                <h1>alimentação + saudável</h1>
+                <p>A verdadeira saúde começa pelo prato do seu cão - escolha alimentos que nutrem o corpo e a alma.
+                </p>
+            </div>
+            <a href="../Pagina Dois/segunda.pagina.index.html">
+                <div class="btn-banner">SAIBA MAIS</div>
+            </a>
+        </div>
+
+    </div>
+    <main>
+
+     
+
+        <div class="container">
+            <h1>Informações do Cão</h1>
+            <form id="dog-form">
+                <div class="checkbox-container">
+                    <input type="checkbox" id="already-registered" name="already-registered">
+                    <label for="already-registered">Já tenho cadastro</label>
+                </div>
+    
+                <div class="registered-id-container" style="display: none;">
+                    <label for="dog-id">ID do Cão:</label>
+                    <input type="text" id="dog-id" name="dog-id">
+                </div>
+    
+                <label for="name">Nome do Pet:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="breed">Raça do Cão:</label>
+                <input type="text" id="breed" name="breed" required>
+    
+                <label for="weight">Peso do Cão (kg):</label>
+                <input type="number" step="0.1" id="weight" name="weight" required>
+    
+                <label for="age">Idade do Cão (anos):</label>
+                <input type="number" id="age" name="age" required>
+    
+                <label for="gender">Gênero:</label>
+                <div class="gender-options">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Masculino</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Feminino</label>
+                </div>
+    
+                <h2>Dieta diária</h2>
+    
+                <div id="food-container">
+                    <div class="food-inputs">
+                        <label for="food1">Alimento 1:</label>
+                        <input type="text" id="food1" name="food1" list="food-list" required>
+                        <datalist id="food-list"> 
+                            <option value="Abóbora cozida">
+                            <option value="Arroz integral cozido">
+                            <option value="Aveia cozida">
+                            <option value="Abobrinha cozida">
+                            <option value="Azeite de oliva">
+                            <option value="Batata-doce cozida">
+                            <option value="Brócolis cozido">
+                            <option value="Batata cozida">
+                            <option value="Beterraba cozida">
+                            <option value="Carne bovina magra cozida">
+                            <option value="Cenoura cozida">
+                            <option value="Couve-flor cozida">
+                            <option value="Carne de cordeiro cozida">
+                            <option value="Espinafre cozido">
+                            <option value="Ervilhas cozidas">
+                            <option value="Espargos cozidos">
+                            <option value="Leite de cabra">
+                            <option value="Ossos moídos">
+                            <option value="Óleo de coco">
+                            <option value="Ossos de carne moídos">
+                            <option value="Ovo cozido">
+                            <option value="Óleo de linhaça">
+                            <option value="Óleo de peixe">
+                            <option value="Óleo de abacate">
+                            <option value="Peito de frango cozido">
+                            <option value="Pimentão cozido">
+                            <option value="Quinoa cozida">
+                            <option value="Queijo cottage">
+                            <option value="Sardinha cozida (com ossos)">
+                            <option value="Salmão cozido">
+                        </datalist>
+                        <label for="amount1">Quantidade (kg):</label>
+                        <input type="number" step="0.1" id="amount1" name="amount1" required>
+                    </div>
+                    <div class="food-inputs">
+                        <label for="food2">Alimento 2:</label>
+                        <input type="text" id="food2" name="food2" list="food-list" required>
+                        <label for="amount2">Quantidade (kg):</label>
+                        <input type="number" step="0.1" id="amount2" name="amount2" required>
+                    </div>
+                    <div class="food-inputs">
+                        <label for="food3">Alimento 3:</label>
+                        <input type="text" id="food3" name="food3" list="food-list" required>
+                        <label for="amount3">Quantidade (kg):</label>
+                        <input type="number" step="0.1" id="amount3" name="amount3" required>
+                    </div>
+                </div>
+    
+                <button type="button" id="add-food-btn">Adicionar Alimento</button>
+                <button type="button" id="remove-food-btn">Remover Alimento</button>
+    
+                
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+        <script src="acompanhamento.js"></script>
+    </main>
+
+    <footer>
+        <div class="div-rodape">
+            <div class="div-rodape-itens">
+                Rua ipsum lorem lorem , 256 <br>
+                Jardim Sta. Cecilia <br>
+                São Paulo - SP <br>
+            </div>
+
+            <div class="div-rodape-itens rodape-div-meio">
+                <img src="../imagens/logo-rodape.png" alt="logo">
+                <h3 style=color:white;>Nutricão - LTDA</h3>
+            </div>
+            <div class="endereco-rodape"></div>
+            <div class="div-rodape-itens">
+                <ul class="rodape-paginas">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre-nos.html">Sobre nós</a></li>
+                    <li><a href="calculadora.html">Calculadora nutricional</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        function count() {
+            // Objeto counter usado para armazenar o valor do contador
+            var contador = { var: 0 };
+            // Utilizando a biblioteca TweenMax para animar o contador
+            TweenMax.to(contador, 3, {
+                // Definindo o valor final do contador como 100
+                var: 1725,
+                // Função chamada a cada atualização do valor do contador
+                onUpdate: function () {
+                    // Arredonda o valor do contador para o inteiro mais próximo
+                    var number = Math.ceil(contador.var);
+                    // Atualiza o conteúdo do elemento HTML com a classe 'contador' com o valor arredondado do contador
+                    $('.contador').html(number);
+                    // Verifica se o número arredondado é igual ao valor atual do contador
+                    if (number === contador.var) {
+                        // Se sim, encerra a animação
+                        count.kill();
+                    }
+                },
+                // Função chamada quando a animação é concluída
+                onComplete: function () {
+                    // Reinicia a contagem
+                    count();
+                },
+                // Define a função de animação para acelerar e desacelerar com o tempo
+                ease: Circ.easeOut
+            });
+        }
+        // Inicia a contagem
+        count();
+    </script>
+</body>
+
+</html>
+</body>
+</html>

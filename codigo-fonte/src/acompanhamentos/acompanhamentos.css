@@ -1,0 +1,268 @@
+/* --------------------------------------------------------------
+configurações do gerais 
+-------------------------------------------------------------- */
+footer, body, h1, h2, h3, h4, h5, h6, p, section, article, main, ul, li, div {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+main {
+  margin-top: 100px;
+  align-self: center;
+}
+
+
+
+img{
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'PoetsenOne-Regular';
+  src: url('../fontes/PoetsenOne-Regular.ttf');
+
+}
+
+/* --------------------------------------------------------------
+fim das configurações do gerais 
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+configurações do menu Desktop
+-------------------------------------------------------------- */
+.div-topo {
+  background-color: white;
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index:1;
+  align-items: center;
+}
+.logo {
+  width: 225px;
+  position: absolute;
+  left: 10px;
+}
+.lista-topo {
+  margin: auto;
+  font-family: 'PoetsenOne-Regular';
+}
+.lista-topo > ul {
+  display: flex;
+  flex-direction: row;
+}
+.lista-topo > a {
+text-decoration: none;
+}
+.lista-topo > ul >li {
+  margin: 10px 50px 10px 50px;
+  list-style: none;
+}
+.lista-topo > ul >li>a {
+text-decoration: none;
+color: black;
+transition: 0.3s;
+}
+.lista-topo > ul >li> :hover {
+  text-decoration: none;
+  color:#F1A008;
+}
+/* --------------------------------------------------------------
+fim das configurações do menu Desktop
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+configurações do banner Desktop
+-------------------------------------------------------------- */
+.div-banner {
+  width: 100%;
+  height: 28em;
+}
+
+.img-banner {
+  width: 100%;
+  height: 30vw;
+  background-image: url(../imagens/banner/banner-certo.png);
+  background-size: cover;
+  text-align: -webkit-center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div-banner a{
+  color: black;
+}
+.btn-banner {
+  background-color: #F1A008;
+  text-align: center;
+  width: 200px;
+  border: 2px dashed black;
+  border-radius: 19px;
+  padding: 11px;
+  font-family: 'PoetsenOne-Regular';
+  transition: 0.5s;
+}
+.btn-banner:hover {
+  background-color: #000000;
+color: white;
+
+}
+.btn-banner a {
+  all: unset;
+  font-size: x-large;
+}
+.banner-texto {
+  font-family: 'PoetsenOne-Regular';
+  font-size: 1.3em;
+  width: 50vw;
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
+.banner-texto h1 {
+  margin-bottom: 1em;
+}
+/* --------------------------------------------------------------
+fim configurações do banner Desktop
+-------------------------------------------------------------- */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  width: auto;
+}
+
+button {
+  background-color: #129454;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0c6337;
+}
+
+.gender-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.food-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.food-inputs label {
+  margin-bottom: 5px;
+}
+
+.food-inputs input {
+  margin-bottom: 10px;
+}
+
+input#already-registered {
+  width: 30px;
+}
+
+/* --------------------------------------------------------------
+configurações do rodapé Desktop
+-------------------------------------------------------------- */
+.div-rodape {
+  background-color: #129454;
+  width: 100%;
+  display: flex;
+  height: 300px;
+  bottom: 0px;
+  left: 0px;
+  flex-wrap: nowrap;
+  font-family: 'PoetsenOne-Regular';
+}
+.div-rodape-itens {
+  height: 300px;
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+  font-size: 1.3em;
+}
+.rodape-div-meio{
+  border-right: 3px dashed white;
+  border-left: 3px dashed white;
+}
+.rodape-paginas{
+  color:white;
+  list-style-type: none;
+}
+.rodape-paginas>li>a {
+  text-decoration: none;
+  color: white;
+}
+.rodape-div-meio img {
+  width: 30%;
+}
+/* --------------------------------------------------------------
+Fim das configurações do rodapé Desktop
+-------------------------------------------------------------- */
+.div-banner {
+  width: 100%;
+  height: 28em;
+  margin-top: 100px;
+}
