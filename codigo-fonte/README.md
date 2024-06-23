@@ -6,12 +6,33 @@ O site em HTML/CSS/JS é um projeto estático e logo pode ser utilizado tanto em
 
 ## Histórico de versões
 
-### [0.1.0] - 11/05/2024
+### [0.1.0] - 13/04/2024
 #### Adicionado
  
-* Homepage arquivos:html, css, js, imagens e fonte
+* Homepage: Arquivos html, css, js, imagens e fonte
 
 
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado/Atualizado/Removido
-- Relação de artefatos ...
+### [0.1.1] - 11/05/2024
+#### Adicionado
+
+* Página de contato: Arquivos html, css, js, imagens e fonte
+* Página de alimentos: Arquivos html, css, js, imagens e fonte
+
+#### Atualizado
+
+* Homepage: Arquivos html, css, js, imagens e fonte
+
+
+### .[0.1.2] - 08/06/2024
+### Adicionado
+
+* Sistema de login com Página de cadastro:  Arquivos html, css, js, imagens e fonte
+* integração do site
+
+### Atualizado
+
+* Página de contato: Arquivos html, css, js, imagens e fonte
+* Homepage: Arquivos html, css, js, imagens e fonte
+
+
+
