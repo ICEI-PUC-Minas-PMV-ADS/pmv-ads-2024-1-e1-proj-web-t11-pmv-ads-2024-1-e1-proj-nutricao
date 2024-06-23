@@ -84,11 +84,11 @@ ________________________________________________________________________________
 
 #### Requisito atendido
 
-RF-01	A aplicação deve conter tela educando sobre o tema e explicando os benefícios da alimentação natural.	
-RF-02	A aplicação deve conter tela com tabela não exaustiva de alimentos permitidos.	
-RF-03	A aplicação deve conter tela com tabela não exaustiva de alimentos não aconselhados.
-RF-07	A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.
-RF-08	A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ)
+* RF-01	A aplicação deve conter tela educando sobre o tema e explicando os benefícios da alimentação natural.	
+* RF-02	A aplicação deve conter tela com tabela não exaustiva de alimentos permitidos.	
+* RF-03	A aplicação deve conter tela com tabela não exaustiva de alimentos não aconselhados.
+* RF-07	A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.
+* RF-08	A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ)
 
 
 #### Artefatos da funcionalidade
