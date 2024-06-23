@@ -42,7 +42,7 @@ Arthur Tiradentes
 
 ____________________________________________________________________________________________________________________________
 
-## Título da funcionalidade
+## Página de Contato
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/4b416487-684c-465a-89ce-dbe810ba11c5)
 
@@ -76,7 +76,41 @@ Nicolas Oliveira
 
 ____________________________________________________________________________________________________________________________
 
+## Página de Contato
 
+![image]
+
+
+
+#### Requisito atendido
+
+RF-01	A aplicação deve conter tela educando sobre o tema e explicando os benefícios da alimentação natural.	
+RF-02	A aplicação deve conter tela com tabela não exaustiva de alimentos permitidos.	
+RF-03	A aplicação deve conter tela com tabela não exaustiva de alimentos não aconselhados.
+RF-07	A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.
+RF-08	A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ)
+
+
+#### Artefatos da funcionalidade
+
+* segunda-pagina.html
+* segunda-pagina.css
+* segunda-pagina.js
+
+####  Estrutura de dados
+
+* [segunda-pagina.html](
+
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL:
+
+
+#### Responsável
+
+Nicolas Oliveira
+____________________________________________________________________________________________________________________________
 
 
 Modelo (não apagar até todos terem inserido)
