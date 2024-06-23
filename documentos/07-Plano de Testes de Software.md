@@ -45,13 +45,40 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 </table>
 
 
-
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: verificar funcionamento da página de alimentos</td>
+  <td>
+   <ul>
+    <li>RF-01 A aplicação deve conter tela educando sobre o tema e explicando os benefícios da alimentação natural.
+        RF-02 A aplicação deve conter tela com tabela não exaustiva de alimentos permitidos.
+        RF-03 A aplicação deve conter tela com tabela não exaustiva de alimentos não aconselhados.
+        RF-07 A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.
+        RF-08 A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ).</li>
+   </ul>
+  </td>
+  <td>Verificar se a página de alimentos está funcionando</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar na página alimentos.</li
+   </ol>
+   </td>
+  <td>a página devera ser carregada completamente.</td>
+  <td>Nicolas</td>
+ </tr>
+</table>
 
 
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
