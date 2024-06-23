@@ -1,0 +1,20 @@
+message: Please cite this software using these metadata.
+title: nutricão
+authors:
+  - family-names: Oliveira Lemos
+    given-names: Nicolas
+  - family-names:  Ribeiro da Silva
+    given-names: Gabriel
+  - family-names: Tiradentes Fonseca
+    given-names: Arthur
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália
+keywords:
+  - alimentação
+  - cachorro
+  - nutrição
+repository-code: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/index.html
+version: 1.0.0
+date-released: 2024-06-23
