@@ -59,10 +59,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>
    <ul>
     <li>RF-01 A aplicação deve conter tela educando sobre o tema e explicando os benefícios da alimentação natural.
-        RF-02 A aplicação deve conter tela com tabela não exaustiva de alimentos permitidos.
-        RF-03 A aplicação deve conter tela com tabela não exaustiva de alimentos não aconselhados.
-        RF-07 A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.
-        RF-08 A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ).</li>
+    <li> RF-02 A aplicação deve conter tela com tabela não exaustiva de alimentos permitidos.
+    <li>RF-03 A aplicação deve conter tela com tabela não exaustiva de alimentos não aconselhados.
+    <li>RF-07 A aplicação deve conter tela com as vantagens e responsabilidades que o tutor deve ter com a alimentação natural.
+    <li>RF-08 A aplicação deve conter tela com as perguntas frequentes sobre o uso da alimentação natural para os animais (FAQ).</li>
    </ul>
   </td>
   <td>Verificar se a página de alimentos está funcionando</td>
