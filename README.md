@@ -34,7 +34,8 @@ Portal sobre alimentação natural canina, contendo informações sobre o assunt
 <li><a href="documentos/09-Referências Bibliográficas.md"> Referências Bibliográficas</a></li>
 </ol>
 
-# [Hospedagem](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/index.html )
+# [Hospedagem]
+A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/index.html"> aqui 
 
  
 
