@@ -59,10 +59,14 @@ Rf-09: A aplicação deve conter formulário de contato para comunicação e cap
 * contato.css
 * contato.js
 
+####  Estrutura de dados
+
+* [contato.html](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/contato/contato.html)
+
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/contato/contato.html
 
 
 #### Responsável
