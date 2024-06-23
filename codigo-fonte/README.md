@@ -2,7 +2,7 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático e está situado no git-hub pages, link do site= 
+O site em HTML/CSS/JS é um projeto estático e está situado no git-hub pages, link do site <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/pagina%20principal/index.html">aqui
 
 ## Histórico de versões
 
