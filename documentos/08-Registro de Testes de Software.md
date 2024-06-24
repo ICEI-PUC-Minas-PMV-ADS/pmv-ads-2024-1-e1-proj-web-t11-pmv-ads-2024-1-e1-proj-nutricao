@@ -29,7 +29,22 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   </li>
   <hr>
 
+<ol>
+  <li> CT-03: Verificar o funcionamento da Página de alimento
 
+ resultado:concluido
+
+  Responsável: Nicolas.
+|Caso de Teste    | CT-1 - Título Caso de Teste |
+|:---|:---|
+| sucesso | conseguiu entrar na Página |
+| Responsável pela execução do caso de Teste | Nicolas |
+
+![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/página%202/segunda.pagina.index.html)
+
+
+  </li>
+  <hr>
 
 
 
