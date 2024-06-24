@@ -34,5 +34,17 @@ O site em HTML/CSS/JS é um projeto estático e logo pode ser utilizado tanto em
 * Página de contato: Arquivos html, css, js, imagens e fonte
 * Homepage: Arquivos html, css, js, imagens e fonte
 
+### .[0.1.3] - 23/06/2024
+### Adicionado
+
+ *calculadora:  Arquivos html, css, js, imagens e fonte
+
+### Atualizado
+* Página de contato: Arquivos html, css, js, imagens e fonte
+* Homepage: Arquivos html, css, js, imagens e fonte
+* Página de alimentos: Arquivos html, css, js, imagens e fonte
+
+
+
 
 
