@@ -79,6 +79,38 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: verificar funcionamento da página de alimentos</td>
+  <td>
+   <ul>
+    <li>RF-04 A aplicação deve ter formulário para receber e armazenar as informações de idade, peso e raça do animal, inseridas pelo usuário.
+    <li>RF-05 A aplicação deve possuir lógica interna que permita o cálculo de quantidades de alimentação, seguindo informações inseridas pelo usuário.
+    <li>RF-06 A aplicação deve fornecer, após o usuário informar os dados necessários, a instrução de caráter educativo sobre as quantidades de macronutrientes adequadas.
+   </ul>
+  </td>
+  <td>Verificar se a página de alimentos está funcionando</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar no butão de acompanhamento.</li
+   </ol>
+   </td>
+  <td>a página devera ser carregada e a calculadora devera funcionar normalmente.</td>
+  <td>Nicolas</td>
+ </tr>
+</table>
+
 
  
 
