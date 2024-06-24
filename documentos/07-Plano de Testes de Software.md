@@ -107,7 +107,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
    </ol>
    </td>
   <td>a página devera ser carregada e a calculadora devera funcionar normalmente.</td>
-  <td>Nicolas</td>
+  <td>Gabriels</td>
  </tr>
 </table>
 
