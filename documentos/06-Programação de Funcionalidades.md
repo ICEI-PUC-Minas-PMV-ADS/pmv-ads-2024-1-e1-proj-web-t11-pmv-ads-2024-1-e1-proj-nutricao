@@ -66,7 +66,7 @@ Rf-09: A aplicação deve conter formulário de contato para comunicação e cap
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/contato/contato.html
+Abra um navegador de Internet e informe a seguinte URL: [link]( https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/contato/contato.html)
 
 
 #### Responsável
@@ -76,9 +76,10 @@ Nicolas Oliveira
 
 ____________________________________________________________________________________________________________________________
 
-## Página de Contato
+## Página dois
 
-![image]
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/9e9beda0-0bf1-40fd-b1b7-692a5aa86e5f)
+
 
 
 
@@ -99,12 +100,12 @@ ________________________________________________________________________________
 
 ####  Estrutura de dados
 
-* [segunda-pagina.html](
+* [segunda-pagina.html](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
 
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL:
+Abra um navegador de Internet e informe a seguinte URL[link](:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
 
 
 #### Responsável
@@ -112,36 +113,40 @@ Abra um navegador de Internet e informe a seguinte URL:
 Nicolas Oliveira
 ____________________________________________________________________________________________________________________________
 
+## Página da calculadora
 
-Modelo (não apagar até todos terem inserido)
-### Título da funcionalidade
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/178cd9fc-08ee-4236-9ddd-ea2b7b4a487f)
 
-[Adicione imagem da funcionalidade/tela]
+
+
 
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
-
+*RF-04	A aplicação deve ter formulário para receber e armazenar as informações de idade, peso e raça do animal, inseridas pelo usuário.	
+*RF-05	A aplicação deve possuir lógica interna que permita o cálculo de quantidades de alimentação, seguindo informações inseridas pelo usuário.	
+*RF-06	A aplicação deve fornecer, após o usuário informar os dados necessários, a instrução de caráter educativo sobre as quantidades de macronutrientes adequadas.	
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+* calculadora.html
+* calculadora.css
+* calculadora.js
 
+####  Estrutura de dados
 
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
+* [calculadora.hmtl](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Abra um navegador de Internet e informe a seguinte URL[link](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Nicolas Oliveira
+
 
 
 
