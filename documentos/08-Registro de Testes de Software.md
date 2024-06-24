@@ -23,7 +23,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | sucesso | conseguiu mandar o form |
 | Responsável pela execução do caso de Teste | Nicolas |
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/a8d7e9dc-7454-412d-adb6-273f5d106aa4)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/0831e209-240d-44f2-b555-d1b395526f67)
+
 
 
   </li>
