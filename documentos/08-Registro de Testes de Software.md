@@ -78,7 +78,27 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads
   </li>
   <hr>
 
+<ol>
+  <li> CT-03: Verificar o funcionamento da Página de alimento
 
+ resultado:concluido
+
+  Responsável: Nicolas.
+|Caso de Teste    | CT-4 - calculadora |
+|:---|:---|
+| sucesso | conseguiu entrar na Página e fazer o calculo |
+| Responsável pela execução do caso de Teste | Nicolas |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/ebe5e0d4-7519-4380-bb6d-9ac9e74354ef)
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/71478d2b-d78b-4e9d-8aca-e48ea58b2921)
+
+
+
+
+  </li>
+  <hr>
 
 
 
