@@ -23,7 +23,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | sucesso | conseguiu mandar o form |
 | Responsável pela execução do caso de Teste | Nicolas |
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/0831e209-240d-44f2-b555-d1b395526f67)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/e0bf9f82-cd56-4b3b-ab49-7cf7790f279c)
+
 
 
 
@@ -41,7 +42,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | sucesso | conseguiu entrar na Página |
 | Responsável pela execução do caso de Teste | Nicolas |
 
-![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/página%202/segunda.pagina.index.html)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/assets/122795589/516f787b-d711-412c-b799-3d0a07138186)
+
 
 
   </li>
