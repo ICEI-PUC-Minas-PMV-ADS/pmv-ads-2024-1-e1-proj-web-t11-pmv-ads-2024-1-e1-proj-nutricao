@@ -105,7 +105,7 @@ ________________________________________________________________________________
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL[link](:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
+Abra um navegador de Internet e informe a seguinte URL: [link](:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
 
 
 #### Responsável
@@ -140,7 +140,7 @@ ________________________________________________________________________________
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL[link](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
+Abra um navegador de Internet e informe a seguinte URL: [link](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-nutricao/codigo-fonte/src/acompanhamentos/acompanhamentos.html)
 
 
 #### Responsável
