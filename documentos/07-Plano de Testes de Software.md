@@ -89,7 +89,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-03: verificar funcionamento da página de alimentos</td>
+  <td>CT-04: verificar se a página da calculadora funciona corretamente</td>
   <td>
    <ul>
     <li>RF-04 A aplicação deve ter formulário para receber e armazenar as informações de idade, peso e raça do animal, inseridas pelo usuário.
